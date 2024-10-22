@@ -1,0 +1,70 @@
+<?php
+// Heading
+$_['heading_title']          = 'Előtelepítés';
+
+// Text
+$_['text_step_2']            = 'Ellenőrizze, hogy a szerver megfelelően van beállítva';
+$_['text_install_php']       = '1. Kérjük, konfigurálja a PHP beállításait az alább felsorolt követelményeknek megfelelően.';
+$_['text_install_extension'] = '2. Kérjük, győződjön meg róla, hogy az alább felsorolt PHP bővítmények telepítve vannak.';
+$_['text_install_db']        = '3. Kérjük, biztosítson legalább egy elérhető adatbázis-motort.';
+$_['text_install_file']      = '4. Kérjük, győződjön meg róla, hogy a lent felsorolt fájlokon a megfelelő jogosultságok vannak beállítva.';
+$_['text_install_directory'] = '5. Kérjük, győződjön meg róla, hogy a lent felsorolt könyvtárakon a megfelelő jogosultságok vannak beállítva.';
+$_['text_setting']           = 'PHP beállítások';
+$_['text_current']           = 'Jelenlegi beállítások';
+$_['text_required']          = 'Szükséges beállítások';
+$_['text_extension']         = 'Bővítmény beállítások';
+$_['text_db']                = 'Adatbázis';
+$_['text_db_driver']         = 'Adatbázis motor';
+$_['text_file']              = 'Fájlok';
+$_['text_directory']         = 'Könyvtárak';
+$_['text_status']            = 'Állapot';
+$_['text_version']           = 'PHP verzio';
+$_['text_global']            = 'Globálok regisztrálása';
+$_['text_magic']             = 'Magic Quotes GPC';
+$_['text_file_upload']       = 'Fájl feltöltés';
+$_['text_session']           = 'Munkamenet automatikus indítása';
+$_['text_gd']                = 'GD';
+$_['text_curl']              = 'cURL';
+$_['text_openssl']           = 'OpenSSL';
+$_['text_zlib']              = 'ZLIB';
+$_['text_zip']               = 'ZIP';
+$_['text_mbstring']          = 'mbstring';
+$_['text_dom']               = 'DOM/XML';
+$_['text_hash']              = 'Hash';
+$_['text_xmlwriter']         = 'XMLWriter';
+$_['text_json']              = 'JSON';
+$_['text_on']                = 'Be';
+$_['text_off']               = 'Ki';
+$_['text_writable']          = 'Írható';
+$_['text_unwritable']        = 'Nem írható';
+//$_['text_missing']           = 'Hiányzik';
+
+// Error
+$_['error_missing']          = 'Hiányzik';
+$_['error_unwritable']       = 'Nem írható';
+$_['error_version']          = 'Figyelmeztetés: PHP 7.3 vagy újabb verziót kell használnia az OpenCart működéséhez!';
+$_['error_file_upload']      = 'Figyelmeztetés: a file_uploads beállítást engedélyezni kell!';
+$_['error_session']          = 'Figyelmeztetés: Az OpenCart nem működik, ha a session.auto_start engedélyezve van!';
+$_['error_db']               = 'Figyelmeztetés: Egy adatbázis-bővítményt kell betölteni a php.ini-ben az OpenCart működéséhez!';
+$_['error_gd']               = 'Figyelmeztetés: A GD bővítményt be kell tölteni az OpenCart működéséhez!';
+$_['error_curl']             = 'Figyelmeztetés: A CURL bővítményt be kell tölteni az OpenCart működéséhez!';
+$_['error_openssl']          = 'Figyelmeztetés: Az OpenSSL bővítményt be kell tölteni az OpenCart működéséhez!';
+$_['error_zlib']             = 'Figyelmeztetés: A ZLIB bővítményt be kell tölteni az OpenCart működéséhez!';
+$_['error_zip']              = 'Figyelmeztetés: A ZIP bővítményt be kell tölteni az OpenCart működéséhez!';
+$_['error_mbstring']         = 'Figyelmeztetés: Az mbstring bővítményt be kell tölteni az OpenCart működéséhez!';
+$_['error_dom']              = 'Figyelmeztetés: A DOM/XML bővítményt be kell tölteni az OpenCart működéséhez!';
+$_['error_hash']             = 'Figyelmeztetés: A Hash bővítményt be kell tölteni az OpenCart működéséhez!';
+$_['error_xmlwriter']        = 'Figyelmeztetés: Az XMLWriter bővítményt be kell tölteni az OpenCart működéséhez!';
+$_['error_json']             = 'Figyelmeztetés: A JSON bővítményt be kell tölteni az OpenCart működéséhez!';
+$_['error_catalog_exist']    = 'Figyelmeztetés: a config.php nem létezik. A config-dist.php-t a config.php-ra kell átneveznie!';
+$_['error_catalog_writable'] = 'Figyelmeztetés: a config.php-nak írhatónak kell lennie az OpenCart telepítéséhez!';
+$_['error_admin_exist']      = 'Figyelmeztetés: az admin/config.php nem létezik. Az admin/config-dist.php-t az admin/config.php-ra kell átneveznie!';
+$_['error_admin_writable']   = 'Figyelmeztetés: az admin/config.php-nak írhatónak kell lennie az OpenCart telepítéséhez!';
+$_['error_image']            = 'Figyelmeztetés: a képkönyvtárnak írhatónak kell lennie az OpenCart működéséhez!';
+$_['error_image_cache']      = 'Figyelmeztetés: a képkészlet könyvtárának írhatónak kell lennie az OpenCart működéséhez!';
+$_['error_image_catalog']    = 'Figyelmeztetés: a képkatalógus könyvtárának írhatónak kell lennie az OpenCart működéséhez!';
+$_['error_cache']            = 'Figyelmeztetés: a cache könyvtárának írhatónak kell lennie az OpenCart működéséhez!';
+$_['error_log']              = 'Figyelmeztetés: a napló könyvtárának írhatónak kell lennie az OpenCart működéséhez!';
+$_['error_download']         = 'Figyelmeztetés: a letöltési könyvtárának írhatónak kell lennie az OpenCart működéséhez!';
+$_['error_upload']           = 'Figyelmeztetés: a feltöltési könyvtárának írhatónak kell lennie az OpenCart működéséhez!';
+$_['error_modification']     = 'Figyelmeztetés: a módosítások könyvtárának írhatónak kell lennie az OpenCart működéséhez!';

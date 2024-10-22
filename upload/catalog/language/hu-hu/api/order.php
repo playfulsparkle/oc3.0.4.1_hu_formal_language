@@ -1,0 +1,16 @@
+<?php
+// Text
+$_['text_success']           = 'Siker: A rendelés sikeresen módosítva lett!';
+
+// Error
+$_['error_permission']       = 'Figyelmeztetés: Nincs jogosultsága az API eléréséhez!';
+$_['error_customer']         = 'Figyelmeztetés: Ügyféladatok kötelezőek!';
+$_['error_payment_address']  = 'Figyelmeztetés: Fizetési cím kötelező!';
+$_['error_payment_method']   = 'Figyelmeztetés: Fizetési mód kötelező!';
+$_['error_no_payment']       = 'Figyelmeztetés: Nincs elérhető fizetési lehetőség!';
+$_['error_shipping_address'] = 'Figyelmeztetés: Szállítási cím kötelező!';
+$_['error_shipping_method']  = 'Figyelmeztetés: Szállítási mód kötelező!';
+$_['error_no_shipping']      = 'Figyelmeztetés: Nincs elérhető szállítási lehetőség!';
+$_['error_stock']            = 'A ***-al megjelölt termékek nem állnak rendelkezésre a kívánt mennyiségben vagy nincsenek készleten!';
+$_['error_minimum']          = 'Figyelmeztetés: A(z) %s minimum rendelési összege %s!';
+$_['error_not_found']        = 'Figyelmeztetés: A rendelés nem található!';

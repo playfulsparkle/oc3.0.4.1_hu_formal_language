@@ -1,0 +1,112 @@
+<?php
+$_['heading_title']                              = 'Secure Trading Web Service';
+
+$_['tab_settings']                               = 'Beállítások';
+$_['tab_myst']                                   = 'MyST';
+
+$_['text_securetrading_ws']                      = '<a href="http://www.securetradingfs.com/partner/open-cart/" target="_blank" rel="external noopener noreferrer"><img src="view/image/payment/secure_trading.png" alt="Secure Trading" title="Secure Trading" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_extension']                             = 'Bővítmények';
+$_['text_all_geo_zones']                         = 'Minden földrajzi zóna';
+$_['text_process_immediately']                   = 'Azonnali feldolgozás';
+$_['text_wait_x_days']                           = 'Várjon %d napot';
+$_['text_wait']                                  = 'Kérjük, várjon.';
+$_['text_authorisation_reversed']                = 'A hitelesítés sikeresen visszavonva';
+$_['text_refund_issued']                         = 'A visszatérítés sikeresen kiadva';
+$_['text_success']                               = 'Siker: A Secure Trading Web Service modul sikeresen módosítva lett!';
+$_['text_pending_settlement']                    = 'Feldolgozás alatt';
+$_['text_manual_settlement']                     = 'Kézi feldolgozás';
+$_['text_suspended']                             = 'Felfüggesztve';
+$_['text_cancelled']                             = 'Megszakítva';
+$_['text_settling']                              = 'Feldolgozás alatt';
+$_['text_settled']                               = 'Feldolgozva';
+$_['text_no_transactions']                       = 'Nincs megjeleníthető tranzakció';
+$_['text_ok']                                    = 'Ok';
+$_['text_denied']                                = 'Elutasítva';
+$_['text_pending_settlement_manually_overriden'] = 'Feldolgozás alatt, kézzel felülbírálva';
+$_['text_pending_suspended']                     = 'Felfüggesztve';
+$_['text_pending_settled']                       = 'Feldolgozva';
+$_['text_payment_info']                          = 'Fizetési információ';
+$_['text_release_status']                        = 'Fizetés kiadva';
+$_['text_void_status']                           = 'Hitelesítés visszavonása';
+$_['text_rebate_status']                         = 'Fizetés kedvezmény';
+$_['text_order_ref']                             = 'Rendelés referencia';
+$_['text_order_total']                           = 'Összesített összeg';
+$_['text_total_released']                        = 'Összesített kiadva';
+$_['text_transactions']                          = 'Tranzakciók';
+$_['text_column_amount']                         = 'Összeg';
+$_['text_column_type']                           = 'Típus';
+$_['text_column_created']                        = 'Létrehozva';
+$_['text_release_ok']                            = 'A kiadás sikeres volt';
+$_['text_release_ok_order']                      = 'A kiadás sikeres volt, a rendelés állapota frissítve lett sikeresre - feldolgozva';
+$_['text_rebate_ok']                             = 'A kedvezmény sikeres volt';
+$_['text_rebate_ok_order']                       = 'A kedvezmény sikeres volt, a rendelés állapota frissítve lett kedvezményesre';
+$_['text_void_ok']                               = 'A visszavonás sikeres volt, a rendelés állapota frissítve lett törölve';
+
+$_['text_confirm_void']                          = 'Biztos benne, hogy vissza kívánja vonni a hitelesítést?';
+$_['text_confirm_release']                       = 'Biztos benne, hogy ki szeretné adni a fizetést?';
+$_['text_confirm_rebate']                        = 'Biztos benne, hogy kedvezményt szeretne adni a fizetésre?';
+$_['text_reversed']                              = 'Visszavonva';
+$_['text_payment']                               = "Fizetés";
+$_['text_rebate']                                = 'Kedvezmény';
+
+$_['entry_site_reference']                       = 'Webhely referencia';
+$_['entry_username']                             = 'Felhasználónév';
+$_['entry_password']                             = 'Jelszó';
+$_['entry_csv_username']                         = 'CSV felhasználónév';
+$_['entry_csv_password']                         = 'CSV jelszó';
+$_['entry_3d_secure']                            = 'Használja a 3D Secure-t';
+$_['entry_cards_accepted']                       = 'Elfogadott kártyák';
+$_['entry_order_status']                         = 'Rendelés állapot';
+$_['entry_failed_order_status']                  = 'Sikertelen rendelés állapota';
+$_['entry_declined_order_status']                = 'Elutasított rendelés állapota';
+$_['entry_refunded_order_status']                = 'Visszatérített rendelés állapota';
+ 
+$_['entry_authorisation_reversed_order_status']  = 'Hitelesítés visszavonása rendelés állapota';
+$_['entry_settle_status']                        = 'Feldolgozási állapot';
+$_['entry_settle_due_date']                      = 'Feldolgozási határidő'; 
+$_['entry_geo_zone']                             = 'Adózóna';
+$_['entry_sort_order']                           = 'Sorrend';
+$_['entry_status']                               = 'Állapot';
+$_['entry_total']                                = 'Teljes összeg';
+$_['entry_reverse_authorisation']                = 'Hitelesítés visszavonása:';
+$_['entry_refunded']                             = 'Visszatérített:';
+$_['entry_refund']                               = 'Visszatérítés kiadása (%s):';
+$_['entry_currency']                             = 'Valuta';
+$_['entry_status_code']                          = 'Hiba kód';
+$_['entry_payment_type']                         = 'Fizetési típus';
+$_['entry_request']                              = 'Kérelem';
+$_['entry_date_from']                            = 'Dátumtól';
+$_['entry_date_to']                              = 'Dátumig';
+$_['entry_hour']                                 = 'Óra';
+$_['entry_minute']                               = 'Perc';
+
+$_['column_order_id']                            = 'Rendelés azonosító';
+$_['column_transaction_reference']               = 'Tranzakció referencia';
+$_['column_customer']                            = 'Vásárló';
+$_['column_total']                               = 'Összesen';
+$_['column_currency']                            = 'Valuta';
+$_['column_settle_status']                       = 'Feldolgozási állapot';
+$_['column_status']                              = 'Állapot';
+$_['column_type']                                = 'Típus';
+$_['column_payment_type']                        = 'Fizetési típus';
+
+$_['error_permission']                           = 'Figyelmeztetés: Nincs jogosultsága a Secure Trading Web Service módosításához!';
+$_['error_site_reference']                       = 'A webhely referencia kötelező';
+$_['error_cards_accepted']                       = 'Az elfogadott kártyák megadása kötelező';
+$_['error_username']                             = 'A felhasználónév megadása kötelező';
+$_['error_password']                             = 'A jelszó megadása kötelező';
+$_['error_connection']                           = 'Nem lehet csatlakozni a Secure Trading-hoz';
+$_['error_data_missing']                         = 'Hiányzó adatok';
+
+$_['help_refund']                                = 'Kérjük, adja meg a tizedes pontot és az összeg tizedes részét';
+$_['help_csv_username']                          = 'A tranzakció letöltési szolgáltatás felhasználóneve';
+$_['help_csv_password']                          = 'A tranzakció letöltési szolgáltatás jelszava';
+$_['help_total']                                 = 'Az a rendelési összeg, amelyet a rendelésnek el kell érnie, mielőtt ez a fizetési mód aktívvá válik.';
+
+$_['button_reverse_authorisation']               = 'Hitelesítés visszavonása';
+$_['button_refund']                              = 'Visszatérítés';
+$_['button_show']                                = 'Megjelenítés';
+$_['button_download']                            = 'Letöltés';
+$_['button_release']                             = 'Kiadás';
+$_['button_rebate']                              = 'Kedvezmény / Visszatérítés';
+$_['button_void']                                = 'Hitelesítés visszavonása';

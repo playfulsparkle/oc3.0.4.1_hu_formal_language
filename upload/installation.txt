@@ -1,0 +1,28 @@
+OpenCart 3 Hungarian language (formal)
+
+A comprehensive Hungarian language pack (formal) for OpenCart 3 version! This package includes all necessary language files for the admin interface, frontend, extensions, and the installation process. The translation is available for OpenCart 3+ versions.
+
+Demo frontend - https://opencart3.playfulsparkle.com/  
+Demo backend - https://opencart3.playfulsparkle.com/admin/
+
+Key Features
+
+- A complete Hungarian language pack (formal) for OpenCart 3: backend, frontend, extension, and installation.
+- Compatible with OpenCart 3+ versions.
+- The translation is thorough and detailed; we have paid great attention to ensuring that the terminology is consistent across every page, e.g., using "áruház" instead of "üzlet" or "bolt".
+
+Installation
+
+1. Download the "Hungarian language (formal)" package from the OpenCart Marketplace.
+2. Extract the language package files to a folder.
+3. Use your preferred FTP client and navigate to the OpenCart 3 installation directory.
+4. Upload the following folders: "admin", "catalog", "extension" (and "install" if you are installing OpenCart 3 for the first time).
+5. Log in to the OpenCart 3 administration interface.
+6. Navigate to the "System" -> "Localization" -> "Languages" page.
+7. Click on the "Add New" button.
+8. In the "Language Name" field, enter "Magyar"; in the "Code" field, enter "hu-hu"; in the "Locale" field, enter "hu_HU.UTF-8,hu_HU,hu-hu,hungarian"; finally, enable the language.
+9. Click the "Save" button; this completes the installation of the language pack.
+
+Support and Updates
+
+After your purchase, you will receive free updates for the OpenCart 3 version. If future updates are released for the 3.x series, they will be available free of charge. If you encounter any problems or need assistance, you can request support via email at support@playfulsparkle.com.
