@@ -9,7 +9,7 @@ $_['text_card_expiry']			= 'Lejárat: ';
 $_['text_trial']                = '%s minden %s %s időszakonként %s fizetésig, majd ';
 $_['text_recurring']            = '%s minden %s %s időszakonként';
 $_['text_length']				= ' %s fizetésig';
-$_['text_fail_card']			= 'Probléma merült fel az Opayo kártyájának eltávolítása során. Kérjük, lépjen kapcsolatba a bolt adminisztrátorával segítségért.';
+$_['text_fail_card']			= 'Probléma merült fel az Opayo kártyájának eltávolítása során. Kérjük, lépjen kapcsolatba a áruház adminisztrátorával segítségért.';
 $_['text_confirm_delete']		= 'Biztos benne, hogy törölni szeretné a kártyát?';
 
 // Entry

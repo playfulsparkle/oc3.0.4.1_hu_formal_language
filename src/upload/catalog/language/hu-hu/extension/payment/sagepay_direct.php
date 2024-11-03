@@ -9,7 +9,7 @@ $_['text_card_expiry']			= 'Lejárat: ';
 $_['text_trial']                = '%s minden %s %s időszakonként %s kifizetésig, majd ';
 $_['text_recurring']            = '%s minden %s %s időszakonként';
 $_['text_length']				= ' összesen %s kifizetésig';
-$_['text_fail_card']			= 'Probléma merült fel a SagePay kártyájának törlésekor. Kérjük, lépjen kapcsolatba a bolt adminisztrátorával segítségért.';
+$_['text_fail_card']			= 'Probléma merült fel a SagePay kártyájának törlésekor. Kérjük, lépjen kapcsolatba a áruház adminisztrátorával segítségért.';
 $_['text_confirm_delete']		= 'Biztosan törölni kívánja a kártyát?';
 
 // Entry

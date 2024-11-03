@@ -13,7 +13,7 @@ $_['entry_exp_year']					= 'Év';
 $_['entry_cvc']							= 'CVC';
 
 // Error
-$_['error_process_order']				= 'Hiba történt a rendelés feldolgozása során. Kérjük, lépjen kapcsolatba a bolt adminisztrátorával segítségért.';
+$_['error_process_order']				= 'Hiba történt a rendelés feldolgozása során. Kérjük, lépjen kapcsolatba a áruház adminisztrátorával segítségért.';
 $_['error_invalid_currency']			= 'Kérjük, használjon érvényes valutát.';
 $_['error_finalizing_payment']			= 'Hiba a kifizetés véglegesítésekor.';
 $_['error_unknown_order_id']			= 'Nem található Cardinity kifizetés ezzel a rendelésazonosítóval.';

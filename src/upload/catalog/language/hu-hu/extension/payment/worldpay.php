@@ -11,7 +11,7 @@ $_['text_recurring']         = '%s minden %s %s időszakonként';
 $_['text_length']			 = ' %s kifizetésig';
 $_['text_confirm_delete']	 = 'Biztos benne, hogy törölni szeretné ezt a kártyát?';
 $_['text_card_success']		 = 'A kártya sikeresen eltávolítva';
-$_['text_card_error']		 = 'Hiba történt a kártya eltávolításakor. Kérjük, lépjen kapcsolatba a bolt adminisztrátorával a segítségért.';
+$_['text_card_error']		 = 'Hiba történt a kártya eltávolításakor. Kérjük, lépjen kapcsolatba a áruház adminisztrátorával a segítségért.';
 
 // Entry
 $_['entry_card']			 = 'Új vagy meglévő kártya: ';
@@ -25,4 +25,4 @@ $_['entry_cc_choice']		 = 'Válasszon egy meglévő kártyát';
 $_['button_delete_card']	 = 'Kártya törlése';
 
 // Error
-$_['error_process_order']	 = 'Hiba történt a rendelése feldolgozása során. Kérjük, lépjen kapcsolatba a bolt adminisztrátorával a segítségért.';
+$_['error_process_order']	 = 'Hiba történt a rendelése feldolgozása során. Kérjük, lépjen kapcsolatba a áruház adminisztrátorával a segítségért.';

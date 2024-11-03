@@ -45,4 +45,4 @@ $_['error_image_related']              = 'A kapcsolódó termék kép méreténe
 $_['error_image_compare']              = 'Az összehasonlító kép méretének dimenziói kötelezőek!';
 $_['error_image_wishlist']             = 'A kívánságlista kép méretének dimenziói kötelezőek!';
 $_['error_image_cart']                 = 'A kosár kép méretének dimenziói kötelezőek!';
-$_['error_image_location']             = 'A bolt kép méretének dimenziói kötelezőek!';
+$_['error_image_location']             = 'A áruház kép méretének dimenziói kötelezőek!';
