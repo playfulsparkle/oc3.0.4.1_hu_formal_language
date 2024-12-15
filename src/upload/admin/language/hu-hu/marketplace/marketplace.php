@@ -68,7 +68,7 @@ $_['button_refresh']     = 'Frissítés';
 
 // Error
 $_['error_permission']   = 'Figyelmeztetés: Nincs jogosultsága a bővítmények módosításához!';
-$_['error_opencart']     = 'Figyelmeztetés: A bővítmények letöltéséhez vagy vásárlásához először adja meg OpenCart API információit az <i class="fa-solid fa-triangle-exclamation"></i> ikonra kattintva!';
+$_['error_opencart']     = 'Figyelmeztetés: A bővítmények letöltéséhez vagy vásárlásához először adja meg OpenCart API információit az <i class="fa fa-exclamation-circle"></i> ikonra kattintva!';
 $_['error_install']      = 'A bővítmény telepítése folyamatban van, kérjük, várjon néhány másodpercet, mielőtt újra próbálkozna!';
 $_['error_purchase']     = 'A bővítmény vásárlása nem sikerült!';
 $_['error_download']     = 'A bővítmény letöltése nem sikerült!';
