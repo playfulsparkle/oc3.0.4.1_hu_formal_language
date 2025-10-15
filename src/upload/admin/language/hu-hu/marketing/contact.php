@@ -3,7 +3,6 @@
 $_['heading_title']        = 'E-mailek';
 
 // Text
-$_['text_mail']            = 'E-mailek küldése az ügyfeleknek';
 $_['text_success']         = 'Az üzenet sikeresen elküldésre került!';
 $_['text_sent']            = 'Az üzenet sikeresen elküldésre került %s - %s címzetteknek!';
 $_['text_list']            = 'E-mail lista';

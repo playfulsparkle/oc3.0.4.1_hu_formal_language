@@ -1,10 +1,12 @@
 <?php
 // Text
 $_['text_paypal']							= 'PayPal';
+$_['text_paypal_fastlane']					= 'Hitel- és betéti kártyák (Fastlane)';
 $_['text_paypal_title']						= 'PayPal (Fizetés PayPal-lal, Kártyával)';
 $_['text_paypal_paylater_title']			= 'Vásárolj most, fizesd később a PayPal-lal';
 $_['text_paypal_googlepay_title']			= 'Google Pay';
 $_['text_paypal_applepay_title']			= 'Apple Pay';
+$_['text_paypal_fastlane_title']			= 'Hitel- és betéti kártyák';
 $_['text_checkout_payment_address']  		= 'Számlázási adatok';
 $_['text_checkout_shipping_address'] 		= 'Szállítási adatok';
 $_['text_checkout_shipping_method']  		= 'Szállítási mód';
@@ -13,6 +15,9 @@ $_['text_your_details']              		= 'Személyes adatai';
 $_['text_your_address']              		= 'Címe';
 $_['text_cart']               				= 'Bevásárló kosár';
 $_['text_shipping_updated']   				= 'Szállítási szolgáltatás frissítve';
+$_['text_fastlane']  						= 'Fastlane';
+$_['text_fastlane_shipping']  				= 'Szállítás';
+$_['text_fastlane_payment']  				= 'Fizetés';
 $_['text_day']                              = 'nap';
 $_['text_week']                             = 'hét';
 $_['text_semi_month']                       = 'fél hónap';
@@ -31,7 +36,7 @@ $_['text_order_message']					= 'PayPal Eladó Védelem - %s';
 $_['text_wait']								= 'Kérjük, várjon!';
 $_['text_loading']          				= 'Betöltés...';
 $_['text_failure_page_title']				= 'A rendelés sikertelen!';
-$_['text_failure_page_message']				= 'Sajnáljuk, de a tranzakció sikertelen volt! Kérjük, válasszon egy másik fizetési módot, vagy <a href="%s" target="_blank" rel="external noopener noreferrer">lépjen kapcsolatba velünk</a>';
+$_['text_failure_page_message']				= 'Sajnáljuk, de a tranzakció sikertelen volt! Kérjük, válasszon egy másik fizetési módot, vagy <a href="%s" target="_blank" rel="external noopener noreferrer">lépjen kapcsolatba velünk</a>.';
 
 // Column
 $_['column_image']             				= 'Kép';
@@ -57,11 +62,17 @@ $_['entry_card_number']						= 'Kártyaszám';
 $_['entry_expiration_date']					= 'Lejárati dátum';
 $_['entry_cvv']								= 'CVV';
 $_['entry_card_save']						= 'Kártya mentése';
+$_['entry_shipping']						= 'Ehhez a vásárláshoz szállítás szükséges.';
 
 // Button
+$_['button_continue']  						= 'Folytatás';
 $_['button_confirm']  						= 'Megerősítés';
 $_['button_shipping'] 						= 'Szállítás frissítése';
-$_['button_pay']							= 'Fizetés Kártyával';
+$_['button_pay']							= 'Fizetés kártyával';
+$_['button_edit']  							= 'Szerkesztés';
+
+// Success
+$_['success_order']		 					= 'Siker: A rendeléseket módosította!';
 
 // Error
 $_['error_warning']                         = 'Figyelmeztetés: Kérjük, ellenőrizze és javítsa a hibákat az űrlapon!';
@@ -87,6 +98,7 @@ $_['error_zone']                     		= 'Kérjük, válasszon egy megyét!';
 $_['error_agree']                    		= 'Figyelmeztetés: Egyetértenie kell a %s-vel!';
 $_['error_address']                  		= 'Figyelmeztetés: Kérjük, válasszon címet!';
 $_['error_custom_field']             		= '%s kötelező!';
+$_['error_fastlane_billing_address']        = 'A számlázási cím nem tűnik érvényesnek!';
 $_['error_order_voided']					= 'Nem tudtuk feldolgozni a kifizetését. Az összes vásárlási egység a rendelésben érvénytelenítve lett. Kérjük, <a href="%s" target="_blank" rel="external noopener noreferrer">lépjen kapcsolatba velünk</a>.';
 $_['error_order_completed']					= 'Nem tudtuk feldolgozni a kifizetését. A kifizetés engedélyezve lett, vagy az engedélyezett kifizetést megkapták a rendelésért. Kérjük, <a href="%s" target="_blank" rel="external noopener noreferrer">lépjen kapcsolatba velünk</a>.';
 $_['error_authorization_captured']			= 'Nem tudtuk feldolgozni a kifizetését. Az engedélyezett kifizetéshez egy vagy több megvalósítás tartozik. Ezen megvalósított kifizetések összege meghaladja az eredeti engedélyezett kifizetés összegét. Kérjük, <a href="%s" target="_blank" rel="external noopener noreferrer">lépjen kapcsolatba velünk</a>.';

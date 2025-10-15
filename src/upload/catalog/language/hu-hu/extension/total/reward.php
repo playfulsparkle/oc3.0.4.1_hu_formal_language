@@ -6,7 +6,6 @@ $_['heading_title'] = 'Bónuszpont felhasználás (Elérhető: %s)';
 $_['text_reward']   = 'Bónuszpontok (%s)';
 $_['text_order_id'] = 'Rendelés azonosítója: #%s';
 $_['text_success']  = 'Siker: A bónuszpontok kedvezménye alkalmazva lett!';
-$_['text_remove']   = 'Siker: A bónuszpontok kedvezménye eltávolítva lett!';
 
 // Entry
 $_['entry_reward']  = 'Felhasználni kívánt pontok (max: %s)';

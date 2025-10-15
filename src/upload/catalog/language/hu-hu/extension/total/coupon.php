@@ -5,7 +5,6 @@ $_['heading_title'] = 'Kuponkód felhasználása';
 // Text
 $_['text_coupon']   = 'Kupon (%s)';
 $_['text_success']  = 'Siker: A kuponkedvezmény alkalmazva!';
-$_['text_remove']   = 'Siker: A kuponkedvezmény eltávolítva!';
 
 // Entry
 $_['entry_coupon']  = 'Írja be a kuponkódot itt';

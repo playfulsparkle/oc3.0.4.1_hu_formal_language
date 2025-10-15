@@ -35,5 +35,5 @@ $_['error_confirm']         = 'A jelszó és a jelszó megerősítése nem egyez
 $_['error_firstname']       = 'A keresztnév legalább 1, és legfeljebb 32 karakterből álljon!';
 $_['error_lastname']        = 'A vezetéknév legalább 1, és legfeljebb 32 karakterből álljon!';
 $_['error_email']           = 'Az e-mail cím nem tűnik érvényesnek!';
-$_['error_email_exists']    = 'Figyelmeztetés: Az e-mail cím már regisztrálva van!';
+$_['error_exists_email']    = 'Figyelmeztetés: Az e-mail cím már regisztrálva van!';
 $_['error_single_user']     = 'Figyelmeztetés: Nem tilthatja le a saját fiókját!';

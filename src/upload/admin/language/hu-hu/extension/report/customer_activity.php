@@ -16,8 +16,8 @@ $_['text_activity_forgotten']      = '<a href="customer_id=%d">%s</a> új jelsz�
 $_['text_activity_address_add']    = '<a href="customer_id=%d">%s</a> új címet adott hozzá.';
 $_['text_activity_address_edit']   = '<a href="customer_id=%d">%s</a> frissítette címét.';
 $_['text_activity_address_delete'] = '<a href="customer_id=%d">%s</a> törölt egy címet.';
-$_['text_activity_return_account'] = '<a href="customer_id=%d">%s</a> benyújtott egy termék <a href="return_id=%d">reklamációt</a>.';
-$_['text_activity_return_guest']   = '%s benyújtott egy termék <a href="return_id=%d">reklamációt</a>.';
+$_['text_activity_return_account'] = '<a href="customer_id=%d">%s</a> termékvisszaküldést kezdeményezett.';
+$_['text_activity_return_guest']   = '%s termékvisszaküldést kezdeményezett.';
 $_['text_activity_order_account']  = '<a href="customer_id=%d">%s</a> létrehozott egy <a href="order_id=%d">új rendelést</a>.';
 $_['text_activity_order_guest']    = '%s létrehozott egy <a href="order_id=%d">új rendelést</a>.';
 $_['text_activity_affiliate_add']  = '<a href="customer_id=%d">%s</a> regisztrált egy partner fiókot.';

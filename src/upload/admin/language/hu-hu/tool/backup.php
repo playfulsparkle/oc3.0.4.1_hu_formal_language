@@ -6,7 +6,7 @@ $_['heading_title']      = 'Biztonsági mentés és visszaállítás';
 $_['text_success']       = 'Siker:  A biztonsági mentés és visszaállítás sikeresen módosítva lett!';
 
 // Entry
-$_['text_progress']    = 'Folyamat';
+$_['entry_progress']   = 'Folyamat';
 $_['entry_export']     = 'Exportálás';
 
 // Tab

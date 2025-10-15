@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']       					= '<span style="color:#1e91cf; font-weight:bold">PayPal Checkout Integráció V3.0.2 (Erősen Ajánlott)</span>'; 
+$_['heading_title']       					= '<span style="color:#1e91cf; font-weight:bold">PayPal Checkout Integráció (Erősen Ajánlott)</span>';
 $_['heading_title_main']  					= 'PayPal Checkout Integráció';
 
 // Text
@@ -17,6 +17,7 @@ $_['text_tab_button']						= 'gombok';
 $_['text_tab_googlepay_button']				= 'Google Pay';
 $_['text_tab_applepay_button']				= 'Apple Pay';
 $_['text_tab_card']							= 'Kártyák - haladó';
+$_['text_tab_fastlane']						= 'Fastlane';
 $_['text_tab_message_configurator']			= 'Későbbi fizetés üzenet';
 $_['text_tab_message_setting']				= 'Későbbi fizetés üzenet - haladó';
 $_['text_tab_order_status']					= 'Megrendelés állapotok';
@@ -31,6 +32,7 @@ $_['text_button_settings']					= 'gombbeállítások';
 $_['text_googlepay_button_settings']		= 'Google Pay gomb beállítások';
 $_['text_applepay_button_settings']			= 'Apple Pay gomb beállítások';
 $_['text_card_settings']					= 'Kártya beállítások';
+$_['text_fastlane_settings']				= 'Fastlane beállítások';
 $_['text_message_settings']					= 'Üzenet beállítások';
 $_['text_day']         						= 'Nap';
 $_['text_week']        						= 'Hét';
@@ -54,6 +56,7 @@ $_['text_connect']							= 'Az eladói fiókja sikeresen csatlakozott.<br /><str
 $_['text_applepay_alert']					= '<strong>Meg kell erősítenie minden olyan domain nevet a környezetében, amelyen Apple Pay gombot kíván megjeleníteni.</strong><br /><br />Ha az Apple nem erősítette meg a domaint, az bármilyen kifizetést elutasít a domaintől. Az Apple Pay kifizetési módszer nem fog működni, ha a domain nincs regisztrálva.';
 $_['text_applepay_step_1']					= '<strong>Töltse le és tárolja a valós domain társítási fájlt</strong><br />1. Töltse le a domain társítási fájlt a valós környezetéhez.<br />2. Tárolja a fájlt a termelői oldalán a /.well-known/apple-developer-merchantid-domain-association helyen.';
 $_['text_applepay_step_2']					= '<strong>Regisztrálja a valós domainjét</strong><br />1. Lépjen a Fizetési Módszerek oldalára a PayPal fiókjában.<br />2. Regisztrálja az összes legmagasabb szintű domaint, például business.example.com, és az aldomainjeit, például checkout.business.example.com, ahol megjelenik az Apple Pay gomb.';
+$_['text_fastlane_alert']					= 'A Fastlane csak az <strong>USA</strong>-beli kereskedők számára működik, és kizárólag <strong>vendég vásárlók</strong> esetén, az <strong>alapértelmezett OpenCart pénztár</strong> folyamatban érhető el.';
 $_['text_message_alert_uk']					= '<strong>Változtassa a böngészőket vásárlókká a Pay in 3 segítségével.¹</strong> Segítsen növelni az értékesítést, miközben ügyfelei rugalmas kifizetéseket és nagyobb vásárlási lehetőséget kapnak. A Pay in 3-mal az ügyfelek időben három kamatmentes részletben fizethetnek, míg Ön teljes egészében, előre kapja meg a vásárlásokat — további költség nélkül.';
 $_['text_message_footnote_uk']				= '¹A Pay in 3 elérhetősége a kereskedő státuszától, szektortól és integrációtól függ. A fogyasztói alkalmasság a státusztól és az engedélyezéstől függ. További részletekért lásd <a href="https://www.paypal.com/uk/webapps/mpp/paypal-payin3/terms" target="_blank" rel="external noopener noreferrer">a termék feltételeit</a>.';
 $_['text_message_alert_us']					= '<strong>Segítsen növelni az értékesítéseit az integrált Pay Later lehetőségeinkkel.</strong> A PayPal Pay Later segítségével vállalkozása kínálhat Pay in 4 és Pay Monthly¹ — két értékes módot, amellyel ügyfelei vásárolhatnak, és időben kifizethetik, miközben Ön teljes egészében, előre megkapja a pénzt. Mindkettő további költség nélkül elérhető az Ön számára.';
@@ -87,9 +90,12 @@ $_['text_completed_status']					= 'Teljesített állapot';
 $_['text_denied_status']					= 'Elutasított állapot';
 $_['text_failed_status']					= 'Sikertelen állapot';
 $_['text_pending_status']					= 'Függő állapot';
+$_['text_partially_captured_status']		= 'Részben rögzített állapot';
+$_['text_partially_refunded_status']		= 'Részben visszatérített állapot';
 $_['text_refunded_status']					= 'Visszatérített állapot';
 $_['text_reversed_status']					= 'Visszavont állapot';
 $_['text_voided_status']					= 'Érvénytelenített állapot';
+$_['text_shipped_status']					= 'Kiszállított állapot';
 $_['text_insert_prepend']					= 'Beszúrás elejére';
 $_['text_insert_append']					= 'Beszúrás végére';
 $_['text_insert_before']					= 'Beszúrás elé';
@@ -192,17 +198,34 @@ $_['text_cart_sub_total']					= 'Részösszeg:';
 $_['text_cart_total']						= 'Összesen:';
 $_['text_step_coupon']						= 'Használjon kuponkódot';
 $_['text_step_shipping']					= 'Szállítási és adó becslése';
-$_['text_step_payment_method']				= '5. lépés: Fizetési módszer';
+$_['text_step_checkout_options']			= '1. lépés: Pénztár opciók';
+$_['text_step_payment_address']				= '2. lépés: Fiók- és számlázási adatok';
+$_['text_step_payment_method']				= '5. lépés: Fizetési mód';
 $_['text_step_confirm_order']				= '6. lépés: Rendelés megerősítése';
+$_['text_payment_information']				= 'Fizetési információk';
 $_['text_transaction_id']   				= 'Tranzakciós azonosító';
+$_['text_transaction_description']   		= 'Tranzakció leírása';
 $_['text_transaction_created']				= 'A kifizetés engedélyezése létrejött.';
 $_['text_transaction_voided']				= 'A kifizetés engedélyezése érvénytelenítve lett.';
+$_['text_transaction_partially_captured']	= 'A fizetési engedély részben rögzítésre került.';
 $_['text_transaction_completed']			= 'A kifizetés lebonyolítása befejeződött.';
 $_['text_transaction_declined']				= 'A kifizetés lebonyolítása elutasítva.';
 $_['text_transaction_pending']				= 'A kifizetés lebonyolításának állapota függőre változott.';
 $_['text_transaction_refunded']				= 'A kereskedő visszatérítette a kifizetést.';
+$_['text_transaction_partially_refunded']	= 'A kereskedő részben visszatérítette a rögzített összeget.';
 $_['text_transaction_reversed']				= 'A PayPal visszavonta a kifizetést.';
+$_['text_transaction_comment']   			= 'Megjegyzés';
+$_['text_transaction_notify']   			= 'Vásárló értesítése';
+$_['text_transaction_action']				= 'Művelet';
+$_['text_final_capture']		   			= 'Végső rögzítés';
+$_['text_tracker_information']   			= 'Követési információk';
+$_['text_tracking_number'] 					= 'Követési szám';
+$_['text_carrier_name'] 					= 'Szállító';
+$_['text_tracker_comment']   				= 'Megjegyzés';
+$_['text_tracker_notify']   				= 'Vásárló értesítése';
+$_['text_tracker_action']					= 'Művelet';
 $_['text_loading']          				= 'Betöltés...';
+
 // Entry
 $_['entry_connect']	 						= 'Kapcsolódás';
 $_['entry_authorization_type']				= 'Engedélyezési típus';
@@ -255,8 +278,11 @@ $_['entry_card_secure_scenario'] 			= 'Kártya 3D Secure forgatókönyvek';
 $_['entry_card_number']						= 'Kártyaszám';
 $_['entry_expiration_date']					= 'Lejárati dátum';
 $_['entry_cvv']								= 'CVV';
+$_['entry_fastlane_card_align']     		= 'Kártya igazítása';
+$_['entry_fastlane_card_size'] 				= 'Kártya mérete';
 $_['entry_message_insert_tag']     			= 'Üzenet beszúró címke';
 $_['entry_message_insert_type']     		= 'Üzenet beszúró típus';
+$_['entry_final_order_status']				= 'Végső rendelési állapot';
 $_['entry_contact_company'] 				= 'Cég';
 $_['entry_contact_first_name'] 				= 'Keresztnév';
 $_['entry_contact_last_name'] 				= 'Vezetéknév';
@@ -278,6 +304,7 @@ $_['help_button_status']					= 'Ha aktiválva van, a PayPal személyre szabott S
 $_['help_googlepay_button_status']			= 'A PayPal ellenőrzi, hogy jogosult-e a Google Pay fizetésre, és ha elérhető, ezt az opciót megjeleníti a fizetési lépésnél.';
 $_['help_applepay_button_status']			= 'A PayPal ellenőrzi, hogy jogosult-e az Apple Pay fizetésre, és ha elérhető, ezt az opciót megjeleníti a fizetési lépésnél.';
 $_['help_card_status']						= 'A PayPal ellenőrzi, hogy jogosult-e a fejlett kártyás fizetésre, és ha elérhető, ezt az opciót megjeleníti a fizetési lépésnél.';
+$_['help_fastlane_status']					= 'A PayPal ellenőrzi, hogy jogosult-e a Fastlane fizetésre, és ha elérhető, megjeleníti ezt az opciót.';
 $_['help_checkout_mode']		 			= 'Ha a fizetése nem kompatibilis ezzel a móddal, akkor javasoljuk, hogy állítsa be az \'Egy gomb\' módot.';
 $_['help_checkout_route']		 			= 'Ha a fizetése saját útvonalat használ, ami eltér az OpenCart (checkout/checkout) útvonalától, akkor itt adja meg.';
 $_['help_total']		 					= 'Az összeg, amit a rendelésnek el kell érnie, mielőtt ez a fizetési mód aktívvá válik.';
@@ -289,6 +316,8 @@ $_['help_card_currency_value']		 		= 'Állítsa be 1.00000-ra, ha ez az alapért
 $_['help_cron_url']		  					= 'Állítson be egy cron-t ennek az URL-nek a hívásához. Ez az integráció jellemzően előfizetéses/megújuló termék vásárlására használatos.';
 $_['help_card_secure_method'] 				= 'A 3D Secure lehetővé teszi a kártyatulajdonosok hitelesítését a kártyakibocsátók által. Az \'SCA Mindig\' módszer minden tranzakciónál aktiválja a 3D Secure-t, függetlenül az SCA követelményektől. Az \'SCA Amikor Szükséges\' módszer 3D Secure vészhelyzeti eljárást biztosít, amikor ez kötelező az Ön által üzemeltetett területen.';
 $_['help_card_secure_scenario'] 			= 'A 3D Secure hitelesítést csak akkor végzik el, ha a kártya be van jegyezve a szolgáltatásra. Olyan forgatókönyvekben, ahol a 3D Secure hitelesítés nem volt sikeres, lehetősége van a fizetés befejezésére a saját kockázatára, ami azt jelenti, hogy Ön - a kereskedő - felelős lesz visszaterhelés esetén.';
+$_['help_final_order_status']				= 'Állítsa a rendelési állapotot véglegesre; ezt követően a PayPal nem módosíthatja.';
+
 // Button
 $_['button_connect'] 						= 'Csatlakozás';
 $_['button_disconnect'] 					= 'Leválasztás';
@@ -305,6 +334,8 @@ $_['button_capture_payment']				= 'Fizetés rögzítése';
 $_['button_reauthorize_payment']			= 'Fizetés újbóli engedélyezése';
 $_['button_void_payment']					= 'Fizetés érvénytelenítése';
 $_['button_refund_payment']					= 'Fizetés visszatérítése';
+$_['button_create_tracker']					= 'Követési információ hozzáadása';
+$_['button_cancel_tracker']					= 'Követési információ törlése';
 $_['button_enable_recurring']				= 'Megújuló fizetés engedélyezése';
 $_['button_disable_recurring']				= 'Megújuló fizetés letiltása';
 
@@ -317,6 +348,8 @@ $_['success_capture_payment']				= 'Siker: A fizetés rögzítése befejeződöt
 $_['success_reauthorize_payment']			= 'Siker: A fizetés engedélyezése újból engedélyezve lett.';
 $_['success_void_payment']					= 'Siker: A fizetés engedélyezése érvénytelenítve lett.';
 $_['success_refund_payment']				= 'Siker: A fizetés rögzítése visszatérítve lett.';
+$_['success_create_tracker']				= 'Siker: A követési információ sikeresen hozzáadva.';
+$_['success_cancel_tracker']				= 'Siker: A követési információ sikeresen törölve.';
 $_['success_enable_recurring']				= 'Siker: A megújuló fizetés engedélyezve lett.';
 $_['success_disable_recurring']				= 'Siker: A megújuló fizetés letiltva lett.';
 

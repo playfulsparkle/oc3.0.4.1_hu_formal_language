@@ -8,7 +8,7 @@ $_['text_list']          = 'Feltöltés lista';
 
 // Column
 $_['column_name']        = 'Feltöltés neve';
-$_['column_code']        = 'Kód';
+$_['column_filename']    = 'Fájlnév';
 $_['column_date_added']  = 'Hozzáadva';
 $_['column_action']      = 'Művelet';
 
