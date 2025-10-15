@@ -1,7 +1,7 @@
 {
-  "name": "oc3_hu_formal_language",
+  "name": "oc3.0.4.1_hu_formal_language",
   "version": "1.0.0",
-  "description": "Hungarian (formal) language for OpenCart 3",
+  "description": "Hungarian (formal) language for OpenCart 3.0.4.1",
   "main": "index.js",
   "scripts": {
     "compress": "node compress.js"
@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/playfulsparkle/oc3_hu_formal_language.git"
+    "url": "git+https://github.com/playfulsparkle/oc3.0.4.1_hu_formal_language.git"
   }
 }
