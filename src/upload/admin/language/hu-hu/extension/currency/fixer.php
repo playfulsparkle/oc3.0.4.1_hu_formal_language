@@ -1,27 +1,27 @@
 <?php
 // Heading
-$_['heading_title']    = 'Fixer Currency Converter';
+$_['heading_title']    = 'Fixer - pénznem-átváltó';
 
 // Text
-$_['text_extension']   = 'Extensions';
-$_['text_success']     = 'Success: You have modified Fixer Currency Converter!';
-$_['text_edit']        = 'Edit Fixer Currency Converter';
+$_['text_extension']   = 'Bővítmények';
+$_['text_success']     = 'Siker: A Fixer pénznem-átváltó módosítása sikerült!';
+$_['text_edit']        = 'Fixer pénznem-átváltó szerkesztése';
 $_['text_edit']       .= '<br><br>';
-$_['text_edit']       .= 'Fixer.io is a currency conversion service. Before using it for the first time you must <b><a href="https://fixer.io/" target="_blank">signup here</a></b> to get an API Access Key.';
+$_['text_edit']       .= 'A Fixer.io egy pénznem-átváltó szolgáltatás. Első használat előtt <b><a href="https://fixer.io/" target="_blank">regisztráljon itt</a></b>, hogy API hozzáférési kulcsot kapjon.';
 $_['text_edit']       .= '<br><br>';
-$_['text_edit']       .= 'When enabled, it can be chosen as the currency rate engine at <b><a href="%2">System &gt; Settings</b></a> and you can refresh the currency rates via <b><a href="%1">System &gt; Localisation &gt; Currencies</a></b>.';
+$_['text_edit']       .= 'Engedélyezés után kiválasztható árfolyam-szolgáltatóként itt: <b><a href="%2">Rendszer &gt; Beállítások</b></a>, és az árfolyamok frissíthetők itt: <b><a href="%1">Rendszer &gt; Lokalizáció &gt; Pénznemek</a></b>.';
 
 // Entry
-$_['entry_api']        = 'API Access Key';
-$_['entry_ip']         = 'Server IP-address';
-$_['entry_cron']       = 'CRON command';
-$_['entry_status']     = 'Status';
+$_['entry_api']        = 'API hozzáférési kulcs';
+$_['entry_ip']         = 'Szerver IP-címe';
+$_['entry_cron']       = 'CRON parancs';
+$_['entry_status']     = 'Állapot';
 
 // Help
-$_['help_ip']          = 'Optional IP-address for server running a CRON task for refreshing the currency rates.';
-$_['help_cron']        = 'Use this command when setting up a CRON task on your server.';
+$_['help_ip']          = 'Opcionális IP-cím annak a szervernek, amelyen a pénznemárfolyamok frissítésére szolgáló CRON feladat fut.';
+$_['help_cron']        = 'Ezt a parancsot használja a CRON feladat beállításakor a szerveren.';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify Fixer Currency Converter!';
-$_['error_ip']         = 'Invalid IP-address!';
-$_['error_api']        = 'API Access Key required!';
+$_['error_permission'] = 'Figyelmeztetés: Nincs jogosultsága a Fixer pénznem-átváltó módosításához!';
+$_['error_ip']         = 'Érvénytelen IP-cím!';
+$_['error_api']        = 'API hozzáférési kulcs megadása kötelező!';
