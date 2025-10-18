@@ -18,7 +18,7 @@ $_['text_status_1']			= 'Függőben';
 $_['text_status_5']			= 'Teljesítve';
 $_['text_status_7']			= 'Törölve';
 $_['text_status_50']		= 'Módosítási kérelem';
-$_['text_status_51']		= 'Módosítva';
+$_['text_status_51']		= 'Módosítás dátuma';
 $_['text_comment']			= 'Frissítve a Lay-Buy által';
 
 // Entry
