@@ -35,7 +35,7 @@ $_['text_total_released']                        = 'Összesített kiadva';
 $_['text_transactions']                          = 'Tranzakciók';
 $_['text_column_amount']                         = 'Összeg';
 $_['text_column_type']                           = 'Típus';
-$_['text_column_created']                        = 'Létrehozva';
+$_['text_column_created']                        = 'Hozzáadás dátuma';
 $_['text_release_ok']                            = 'A kiadás sikeres volt';
 $_['text_release_ok_order']                      = 'A kiadás sikeres volt, a rendelés állapota frissítve lett sikeresre - feldolgozva';
 $_['text_rebate_ok']                             = 'A kedvezmény sikeres volt';
@@ -60,10 +60,10 @@ $_['entry_order_status']                         = 'Rendelés állapot';
 $_['entry_failed_order_status']                  = 'Sikertelen rendelés állapota';
 $_['entry_declined_order_status']                = 'Elutasított rendelés állapota';
 $_['entry_refunded_order_status']                = 'Visszatérített rendelés állapota';
- 
+
 $_['entry_authorisation_reversed_order_status']  = 'Hitelesítés visszavonása rendelés állapota';
 $_['entry_settle_status']                        = 'Feldolgozási állapot';
-$_['entry_settle_due_date']                      = 'Feldolgozási határidő'; 
+$_['entry_settle_due_date']                      = 'Feldolgozási határidő';
 $_['entry_geo_zone']                             = 'Adózóna';
 $_['entry_sort_order']                           = 'Sorrend';
 $_['entry_status']                               = 'Állapot';

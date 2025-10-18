@@ -12,8 +12,9 @@ $_['column_name']       = 'Módosítás neve';
 $_['column_author']     = 'Szerző';
 $_['column_version']    = 'Verzió';
 $_['column_status']     = 'Állapot';
-$_['column_date_added'] = 'Hozzáadva';
+$_['column_date_added'] = 'Hozzáadás dátuma';
 $_['column_action']     = 'Művelet';
 
 // Error
 $_['error_permission']  = 'Figyelmeztetés: Nincs jogosultsága a módosítások módosításához!';
+

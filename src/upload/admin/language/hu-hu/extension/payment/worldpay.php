@@ -68,7 +68,7 @@ $_['text_total_released']		         = 'Összesen felszabadítva';
 $_['text_transactions']			         = 'Tranzakciók';
 $_['text_column_amount']		         = 'Összeg';
 $_['text_column_type']			         = 'Típus';
-$_['text_column_date_added']	         = 'Hozzáadva';
+$_['text_column_date_added']	         = 'Hozzáadás dátuma';
 
 $_['text_confirm_refund']		         = 'Biztosan vissza kívánja téríteni a kifizetést?';
 

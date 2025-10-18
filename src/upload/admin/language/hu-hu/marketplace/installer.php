@@ -11,7 +11,7 @@ $_['text_install']           = 'Telepítés';
 
 // Column
 $_['column_filename']        = 'Bővítmény név';
-$_['column_date_added']      = 'Létrehozva';
+$_['column_date_added']      = 'Hozzáadás dátuma';
 $_['column_action']          = 'Művelet';
 
 // Entry

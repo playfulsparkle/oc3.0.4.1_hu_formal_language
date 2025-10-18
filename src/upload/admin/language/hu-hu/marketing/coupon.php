@@ -21,7 +21,7 @@ $_['column_status']       = 'Állapot';
 $_['column_order_id']     = 'Rendelési azonosító';
 $_['column_customer']     = 'Ügyfél';
 $_['column_amount']       = 'Összeg';
-$_['column_date_added']   = 'Hozzáadva';
+$_['column_date_added']   = 'Hozzáadás dátuma';
 $_['column_action']       = 'Művelet';
 
 // Entry
@@ -55,3 +55,4 @@ $_['error_permission']    = 'Figyelmeztetés: Nincs jogosultsága a kuponok mód
 $_['error_exists']        = 'Figyelmeztetés: A kuponkód már használatban van!';
 $_['error_name']          = 'A kupon név legalább 3, és legfeljebb 128 karakterből álljon!';
 $_['error_code']          = 'A kód legalább 3, és legfeljebb 20 karakterből álljon!';
+

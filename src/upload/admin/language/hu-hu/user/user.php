@@ -11,7 +11,7 @@ $_['text_edit']             = 'Felhasználó szerkesztése';
 // Column
 $_['column_username']       = 'Felhasználónév';
 $_['column_status']         = 'Állapot';
-$_['column_date_added']     = 'Hozzáadva';
+$_['column_date_added']     = 'Hozzáadás dátuma';
 $_['column_action']         = 'Művelet';
 
 // Entry

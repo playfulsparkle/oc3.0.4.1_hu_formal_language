@@ -11,7 +11,7 @@ $_['text_upload']       = 'A fájl sikeresen feltöltve!';
 
 // Column
 $_['column_name']       = 'Letöltés név';
-$_['column_date_added'] = 'Hozzáadva';
+$_['column_date_added'] = 'Hozzáadás dátuma';
 $_['column_action']     = 'Művelet';
 
 // Entry

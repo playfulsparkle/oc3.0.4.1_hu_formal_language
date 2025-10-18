@@ -33,7 +33,7 @@ $_['column_name']               = 'Vásárló név';
 $_['column_email']              = 'E-mail';
 $_['column_customer_group']     = 'Vásárlói csoport';
 $_['column_status']             = 'Állapot';
-$_['column_date_added']         = 'Hozzáadva';
+$_['column_date_added']         = 'Hozzáadás dátuma';
 $_['column_comment']            = 'Megjegyzés';
 $_['column_description']        = 'Leírás';
 $_['column_amount']             = 'Összeg';
@@ -81,7 +81,7 @@ $_['entry_amount']              = 'Összeg';
 $_['entry_points']              = 'Pontok';
 $_['entry_name']                = 'Vásárló név';
 $_['entry_ip']                  = 'IP cím';
-$_['entry_date_added']          = 'Hozzáadva';
+$_['entry_date_added']          = 'Hozzáadás dátuma';
 
 // Help
 $_['help_safe']                 = 'Állítsa "igaz"-ra, hogy elkerülje, hogy ezt az ügyfelet az átverés elleni rendszer kiszűrje';

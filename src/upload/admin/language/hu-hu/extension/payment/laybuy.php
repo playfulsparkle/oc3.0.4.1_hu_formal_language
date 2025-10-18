@@ -77,7 +77,7 @@ $_['column_dp_amount']              = 'Előleg Összeg';
 $_['column_first_payment']          = 'Első Fizetés Esedékes';
 $_['column_last_payment']           = 'Utolsó Fizetés Esedékes';
 $_['column_status']                 = 'Állapot';
-$_['column_date_added']             = 'Hozzáadva';
+$_['column_date_added']             = 'Hozzáadás dátuma';
 $_['column_action']                 = 'Művelet';
 
 // Entry
@@ -105,7 +105,7 @@ $_['entry_order_id']                = 'Rendelés Azonosító';
 $_['entry_customer']                = 'Vásárló';
 $_['entry_dp_percent']              = 'Előleg Százalék';
 $_['entry_months']                  = 'Hónapok';
-$_['entry_date_added']              = 'Hozzáadva';
+$_['entry_date_added']              = 'Hozzáadás dátuma';
 
 // Help
 $_['help_membership_id']            = 'Személyes Lay-Buy fiók tagsági száma. (a https://www.lay-buys.com/index.php/vtmob/login weboldalon való regisztráció során szerezhető be)';

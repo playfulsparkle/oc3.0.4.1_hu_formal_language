@@ -21,7 +21,7 @@ $_['column_customer']      = 'Vásárló';
 $_['column_product']       = 'Termék';
 $_['column_model']         = 'Cikkszám';
 $_['column_status']        = 'Állapot';
-$_['column_date_added']    = 'Létrehozva';
+$_['column_date_added']    = 'Hozzáadás dátuma';
 $_['column_date_modified'] = 'Módosítva';
 $_['column_comment']       = 'Megjegyzés';
 $_['column_notify']        = 'Vásárló értesítve';
@@ -45,7 +45,7 @@ $_['entry_return_action']  = 'Reklamáció művelet';
 $_['entry_return_status']  = 'Reklamáció állapota';
 $_['entry_notify']         = 'Vásárló értesítése';
 $_['entry_return_id']      = 'Reklamáció azonosító';
-$_['entry_date_added']     = 'Hozzáadva';
+$_['entry_date_added']     = 'Hozzáadás dátuma';
 $_['entry_date_modified']  = 'Módosítás dátuma';
 
 // Help
@@ -61,3 +61,4 @@ $_['error_email']          = 'Figyelmeztetés: Az e-mail cím érvénytelennek t
 $_['error_telephone']      = 'Figyelmeztetés: A telefonszám legalább 3, és legfeljebb 32 karakterből álljon!';
 $_['error_product']        = 'Figyelmeztetés: A termék név legalább 1, és legfeljebb 255 karakterből álljon!';
 $_['error_model']          = 'Figyelmeztetés: A termék cikkszám legalább 1, és legfeljebb 64 karakterből álljon!';
+

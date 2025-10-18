@@ -12,7 +12,7 @@ $_['text_order_detail']          = 'Rendelés Részletei';
 $_['text_customer_detail']       = 'Customer Details';
 $_['text_option']                = 'Beállítások';
 $_['text_store']                 = 'Áruház';
-$_['text_date_added']            = 'Hozzáadva';
+$_['text_date_added']            = 'Hozzáadás dátuma';
 $_['text_payment_method']        = 'Fizetés módja';
 $_['text_shipping_method']       = 'Szállítás módja';
 $_['text_customer']              = 'Vásárló';
@@ -65,7 +65,7 @@ $_['text_picklist']              = 'Szállítólevél';
 $_['column_order_id']            = 'Rendelés azonosító';
 $_['column_customer']            = 'Vásárló';
 $_['column_status']              = 'Állapot';
-$_['column_date_added']          = 'Létrehozva';
+$_['column_date_added']          = 'Hozzáadás dátuma';
 $_['column_date_modified']       = 'Módosítva';
 $_['column_total']               = 'Összesen';
 $_['column_product']             = 'Termék';
@@ -119,7 +119,7 @@ $_['entry_voucher']              = 'Ajándékutalvány';
 $_['entry_reward']               = 'Bónuszpont';
 $_['entry_order_id']             = 'Rendelés azonosító';
 $_['entry_total']                = 'Összegzés';
-$_['entry_date_added']           = 'Hozzáadva';
+$_['entry_date_added']           = 'Hozzáadás dátuma';
 $_['entry_date_modified']        = 'Módosítás dátuma';
 
 // Help

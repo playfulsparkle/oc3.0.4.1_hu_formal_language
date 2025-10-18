@@ -39,12 +39,12 @@ $_['text_total_captured']			 = 'Összes rögzítve';
 $_['text_transactions']				 = 'Tranzakciók';
 $_['text_column_amount']			 = 'Összeg';
 $_['text_column_type']				 = 'Típus';
-$_['text_column_date_added']		 = 'Létrehozva';
+$_['text_column_date_added']		 = 'Hozzáadás dátuma';
 $_['text_confirm_void']				 = 'Biztos benne, hogy törli a fizetést?';
 $_['text_confirm_capture']			 = 'Biztos benne, hogy rögzíti a fizetést?';
 $_['text_confirm_rebate']			 = 'Biztos benne, hogy kedvezményt ad a fizetésre?';
 $_['text_globalpay']                 = '<a href="https://resourcecentre.globaliris.com/getting-started.php?id=OpenCart" target="_blank" rel="external noopener noreferrer"><img src="view/image/payment/globalpay.png" alt="Globalpay" title="Globalpay" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_void']                      = 'Törlés'; 
+$_['text_void']                      = 'Törlés';
 $_['text_payment']                   = 'Fizetés';
 $_['text_rebate']                    = 'Kedvezmény';
 

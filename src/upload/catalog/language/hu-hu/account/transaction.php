@@ -3,7 +3,7 @@
 $_['heading_title']      = 'Tranzakciói';
 
 // Column
-$_['column_date_added']  = 'Hozzáadva';
+$_['column_date_added']  = 'Hozzáadás dátuma';
 $_['column_description'] = 'Leírás';
 $_['column_amount']      = 'Összeg (%s)';
 
@@ -12,3 +12,4 @@ $_['text_account']       = 'Fiók';
 $_['text_transaction']   = 'Tranzakciói';
 $_['text_total']         = 'Jelenlegi egyenlege:';
 $_['text_empty']         = 'Nincsenek tranzakciói!';
+

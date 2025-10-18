@@ -14,7 +14,7 @@ $_['column_name']       = 'Kampány név';
 $_['column_code']       = 'Kód';
 $_['column_clicks']     = 'Kattintások';
 $_['column_orders']     = 'Rendelések';
-$_['column_date_added'] = 'Hozzáadva';
+$_['column_date_added'] = 'Hozzáadás dátuma';
 $_['column_action']     = 'Művelet';
 
 // Entry
@@ -22,7 +22,7 @@ $_['entry_name']        = 'Kampány név';
 $_['entry_description'] = 'Kampány leírása';
 $_['entry_code']        = 'Nyomkövetési kód';
 $_['entry_example']     = 'Példák';
-$_['entry_date_added']  = 'Hozzáadva';
+$_['entry_date_added']  = 'Hozzáadás dátuma';
 
 // Help
 $_['help_code']         = 'A nyomkövetési kód, amelyet a kampány kampányok követésére használunk.';
@@ -33,3 +33,4 @@ $_['error_permission']  = 'Figyelmeztetés: Nincs jogosultsága a kampány nyomk
 $_['error_name']        = 'A kampány név legalább 1, és legfeljebb 32 karakterből álljon!';
 $_['error_code']        = 'Nyomkövetési kód megadása kötelező!';
 $_['error_exists']      = 'A nyomkövetési kód már használatban van egy másik kampány által!';
+

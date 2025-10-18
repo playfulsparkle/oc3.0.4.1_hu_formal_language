@@ -11,4 +11,5 @@ $_['text_empty']        = 'Még nem rendelt letölthető termékeket!';
 $_['column_order_id']   = 'Rendelés azonosító';
 $_['column_name']       = 'Név';
 $_['column_size']       = 'Méret';
-$_['column_date_added'] = 'Hozzáadva';
+$_['column_date_added'] = 'Hozzáadás dátuma';
+

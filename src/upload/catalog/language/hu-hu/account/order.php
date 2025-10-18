@@ -8,7 +8,7 @@ $_['text_order']            = 'Rendelés adatai';
 $_['text_order_detail']     = 'Rendelés részletei';
 $_['text_invoice_no']       = 'Számlaszám:';
 $_['text_order_id']         = 'Rendelés azonosító:';
-$_['text_date_added']       = 'Létrehozva:';
+$_['text_date_added']       = 'Hozzáadás dátuma:';
 $_['text_shipping_address'] = 'Szállítási cím:';
 $_['text_shipping_method']  = 'Szállítás módja:';
 $_['text_payment_address']  = 'Fizetési cím:';
@@ -29,10 +29,11 @@ $_['column_quantity']       = 'Mennyiség';
 $_['column_price']          = 'Fogyasztói ár';
 $_['column_total']          = 'Összesen';
 $_['column_action']         = 'Művelet';
-$_['column_date_added']     = 'Hozzáadva';
+$_['column_date_added']     = 'Hozzáadás dátuma';
 $_['column_status']         = 'Állapot';
 $_['column_comment']        = 'Megjegyzés';
-$_['column_date_added']     = 'Létrehozva';
+$_['column_date_added']     = 'Hozzáadás dátuma';
 
 // Error
 $_['error_reorder']         = '%s jelenleg nem rendelhető újra.';
+

@@ -15,7 +15,7 @@ $_['text_return_id']     = 'Reklamáció azonosító:';
 $_['text_order_id']      = 'Rendelés azonosító:';
 $_['text_date_ordered']  = 'Rendelés dátuma:';
 $_['text_status']        = 'Állapot:';
-$_['text_date_added']    = 'Hozzáadva:';
+$_['text_date_added']    = 'Hozzáadás dátuma:';
 $_['text_comment']       = 'Reklamációs megjegyzések';
 $_['text_history']       = 'Reklamációs előzmény';
 $_['text_empty']         = 'Nincs korábbi reklamációja!';
@@ -25,7 +25,7 @@ $_['text_agree']         = 'Elolvastam és elfogadom a <a href="%s" class="modal
 $_['column_return_id']   = 'Reklamáció azonosító';
 $_['column_order_id']    = 'Rendelés azonosító';
 $_['column_status']      = 'Állapot';
-$_['column_date_added']  = 'Hozzáadva';
+$_['column_date_added']  = 'Hozzáadás dátuma';
 $_['column_customer']    = 'Vásárló';
 $_['column_product']     = 'Termék név';
 $_['column_model']       = 'Cikkszám';
@@ -61,3 +61,4 @@ $_['error_product']      = 'A termék név legalább 3, és legfeljebb 255 karak
 $_['error_model']        = 'A cikkszám legalább 3, és legfeljebb 64 karakterből álljon!';
 $_['error_reason']       = 'Ki kell választania egy reklamációs indokot!';
 $_['error_agree']        = 'Figyelmeztetés: El kell fogadnia a %s!';
+

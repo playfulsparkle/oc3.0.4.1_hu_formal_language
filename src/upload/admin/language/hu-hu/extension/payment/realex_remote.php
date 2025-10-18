@@ -46,7 +46,7 @@ $_['text_rebate']                    = 'Kedvezmény';
 // Column
 $_['text_column_amount']			 = 'Összeg';
 $_['text_column_type']				 = 'Típus';
-$_['text_column_date_added']		 = 'Létrehozva';
+$_['text_column_date_added']		 = 'Hozzáadás dátuma';
 
 // Entry
 $_['entry_merchant_id']				 = 'Kereskedő azonosító';

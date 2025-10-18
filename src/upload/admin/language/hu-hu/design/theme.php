@@ -15,7 +15,7 @@ $_['text_twig']         = 'A témaszerkesztő a Twig sablonnyelvet használja. A
 $_['column_store']      = 'Áruház';
 $_['column_route']      = 'Útvonal';
 $_['column_theme']      = 'Téma';
-$_['column_date_added'] = 'Hozzáadva';
+$_['column_date_added'] = 'Hozzáadás dátuma';
 $_['column_action']     = 'Művelet';
 
 // Error
