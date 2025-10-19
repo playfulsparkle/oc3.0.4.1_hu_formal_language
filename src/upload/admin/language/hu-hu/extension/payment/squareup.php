@@ -70,7 +70,7 @@ $_['text_location_error']                               = 'Hiba történt a hely
 $_['text_location_help']                                = 'Válassza ki, hogy melyik beállított Square helyszínt kívánja használni a tranzakciókhoz. Kártyafeldolgozási lehetőségekkel kell rendelkeznie.';
 $_['text_location_label']                               = 'Helyszín';
 $_['text_manage']                                       = 'Hitelkártyás Tranzakció (Square)';
-$_['text_manage_tooltip']                               = 'Részletek megtekintése / Elfogadás / Érvénytelenítés / Visszatérítés';
+$_['text_manage_tooltip']                               = 'Részletek megtekintése / Elfogadás / Sztornózás / Visszatérítés';
 $_['text_merchant_info_section_heading']                = 'Kereskedői Információ';
 $_['text_merchant_name_label']                          = 'Kereskedő neve';
 $_['text_merchant_name_placeholder']                    = 'Nincs beállítva';
@@ -122,7 +122,7 @@ $_['text_token_expiry_warning']                         = 'A Square hozzáféré
 $_['text_token_revoked']                                = 'A Square hozzáférési tokenje lejárt vagy visszavonásra került! <a href="%s">Kattintson ide</a> a Square kiegészítő újraengedélyezéséhez.';
 $_['text_transaction_statuses']                         = 'Tranzakció állapotok';
 $_['text_view']                                         = 'Továbbiak megtekintése';
-$_['text_void']                                         = 'Érvénytelenítés';
+$_['text_void']                                         = 'Sztornózás';
 $_['text_na']                                           = 'N/A';
 $_['text_no_reason_provided']                           = 'Az ok nem került megadásra.';
 
@@ -191,9 +191,9 @@ $_['column_reason']                                     = 'Indok';
 $_['column_fee']                                        = 'Feldolgozási díj';
 
 // Button
-$_['button_void']                                       = 'Megsemmisít';
+$_['button_void']                                       = 'Sztornó';
 $_['button_refund']                                     = 'Visszatérítés';
-$_['button_capture']                                    = 'Rögzít';
+$_['button_capture']                                    = 'RögzTerhelésít';
 $_['button_connect']                                    = 'Csatlakozás';
 $_['button_reconnect']                                  = 'Újracsatlakozás';
 $_['button_refresh']                                    = 'Token frissítése';

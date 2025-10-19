@@ -58,8 +58,8 @@ $_['help_cron_job_url']		  = 'Állítson be egy cron feladatot, amely meghívja 
 
 // Button
 $_['button_release']		  = 'Kiadás';
-$_['button_rebate']			  = 'Visszatérítés / pénzvisszatérítés';
-$_['button_void']			  = 'Törlés';
+$_['button_rebate']			  = 'Jóváírás / visszatérítés';
+$_['button_void']			  = 'Sztornó';
 
 // Error
 $_['error_permission']		  = 'Figyelmeztetés: Nincs jogosultsága a SagePay fizetési mód módosításához!';

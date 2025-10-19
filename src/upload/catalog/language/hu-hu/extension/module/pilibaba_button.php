@@ -1,6 +1,6 @@
 <?php
 //Heading
-$_['heading_title']    = '中国用户请点击Pilibaba按钮跳转至中文页面付款';
+$_['heading_title']    = 'Kínai felhasználók: kattintson a Pilibaba gombra a kínai oldalon történő fizetéshez';
 
 //Text
-$_['text_description'] = 'Kínai vásárlók, kérjük, kattintsanak a Pilibaba gombra a vásárlás befejezéséhez.';
+$_['text_description'] = 'A kínai vásárlók a Pilibaba gombra kattintva fejezhetik be a fizetést';

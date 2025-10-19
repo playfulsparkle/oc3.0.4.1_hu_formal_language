@@ -16,7 +16,7 @@ $_['text_us_region']			   = 'Egyesült Államok';
 $_['text_eu_region']               = 'Európai régió';
 $_['text_uk_region']               = 'Egyesült Királyság';
 $_['text_live']                     = 'Éles';
-$_['text_sandbox']                  = 'Sandbox';
+$_['text_sandbox']                  = 'Tesztkörnyezet';
 $_['text_auth']						= 'Engedélyezés';
 $_['text_payment']                  = 'Fizetés';
 $_['text_account']                  = 'Fiók';
@@ -82,7 +82,7 @@ $_['text_info_buyer_multi_currencies'] = 'Ez a bővítmény támogatja a Többp�
 $_['column_status']                 = 'Állapot';
 
 // Entry
-$_['entry_merchant_id']             = 'Merchant ID';
+$_['entry_merchant_id']             = 'Kereskedői azonosító';
 $_['entry_access_key']              = 'Hozzáférési Kulcs';
 $_['entry_access_secret']           = 'Titkos Kulcs';
 $_['entry_client_id']               = 'Ügyfél ID';
@@ -131,6 +131,6 @@ $_['error_credentials'] 			= 'Kérjük, adja meg a kulcsokat érvényes JSON for
 $_['error_no_supported_currencies'] = 'Nincsenek támogatott valuták az Ön áruházában, kérjük, adjon hozzá/engedélyezzen vásárlói több valutát támogató valutákat a funkció használatához.';
 
 // Buttons
-$_['button_capture']				= 'Rögzítés';
+$_['button_capture']				= 'Terhelés';
 $_['button_refund']					= 'Visszatérítés';
 $_['button_cancel']					= 'Törlés';

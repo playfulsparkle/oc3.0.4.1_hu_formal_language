@@ -3,5 +3,5 @@
 $_['heading_title'] = 'Információk';
 
 // Text
-$_['text_contact']  = 'Contact Us';
-$_['text_sitemap']  = 'Site Map';
+$_['text_contact']  = 'Kapcsolat';
+$_['text_sitemap']  = 'Webhelytérkép';

@@ -38,7 +38,7 @@ $_['help_cvv_amex']												= 'American Express esetében ez a kártya elüls
 // Validation Error codes
 $_['text_card_message_Please check the API Key and Password']   = 'Kérjük, ellenőrizze az API kulcsot és a jelszót';
 
-$_['text_card_message_V6000']									= 'Határozatlan érvénytelenítési hiba';
+$_['text_card_message_V6000']									= 'Nem meghatározott érvényesítési hiba';
 $_['text_card_message_V6001']									= 'Érvénytelen ügyfél IP cím';
 $_['text_card_message_V6002']									= 'Érvénytelen eszközazonosító';
 $_['text_card_message_V6011']									= 'Érvénytelen összeg';

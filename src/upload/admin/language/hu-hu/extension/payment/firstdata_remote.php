@@ -59,7 +59,7 @@ $_['entry_auto_settle']				 = 'Elszámolás típusa';
 $_['entry_status_success_settled']	 = 'Siker - kiegyenlítve';
 $_['entry_status_success_unsettled'] = 'Siker - nem kiegyenlítve';
 $_['entry_status_decline']			 = 'Elutasítva';
-$_['entry_status_void']				 = 'Törölve';
+$_['entry_status_void']				 = 'Sztornózva';
 $_['entry_status_refund']			 = 'Visszatérítve';
 $_['entry_enable_card_store']		 = 'Kártyaadatok tárolásának engedélyezése';
 $_['entry_cards_accepted']			 = 'Elfogadott kártyatípusok';
@@ -78,9 +78,9 @@ $_['tab_order_status']				 = 'Rendelés állapot';
 $_['tab_payment']					 = 'Fizetési beállítások';
 
 // Button
-$_['button_capture']				 = 'Zárolás';
+$_['button_capture']				 = 'Terhelés';
 $_['button_refund']					 = 'Visszatérítés';
-$_['button_void']					 = 'Törlés';
+$_['button_void']					 = 'Sztornó';
 
 // Error
 $_['error_merchant_id']				 = 'Üzlet azonosító szükséges';

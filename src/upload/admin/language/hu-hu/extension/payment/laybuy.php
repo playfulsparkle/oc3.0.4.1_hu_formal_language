@@ -99,8 +99,8 @@ $_['entry_api_url']                 = 'API URL';
 $_['entry_geo_zone']                = 'Adózóna';
 $_['entry_status']                  = 'Állapot';
 $_['entry_sort_order']              = 'Sorrend';
-$_['entry_cron_url']                = 'Cron Feladat URL';
-$_['entry_cron_time']               = 'Cron Feladat Utolsó Futás';
+$_['entry_cron_url']                = 'Cron feladat URL-je';
+$_['entry_cron_time']               = 'Cron feladat utolsó futása';
 $_['entry_order_id']                = 'Rendelés Azonosító';
 $_['entry_customer']                = 'Vásárló';
 $_['entry_dp_percent']              = 'Előleg Százalék';
@@ -131,6 +131,6 @@ $_['error_token']                   = 'Lay-Buy Titkos Token kötelező!';
 $_['error_min_deposit']             = 'Nem haladhatja meg a Maximális Előleg összeget!';
 
 // Button
-$_['button_fetch']                  = 'Lekérdezés';
-$_['button_revise_plan']            = 'Terv Felülvizsgálata';
-$_['button_cancel_plan']            = 'Terv Törlése';
+$_['button_fetch']                  = 'Lekérés';
+$_['button_revise_plan']            = 'Terv módosítása';
+$_['button_cancel_plan']            = 'Terv lemondása';

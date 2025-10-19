@@ -84,5 +84,5 @@ $_['text_confirm_release']                       = 'Biztos, hogy ki akarja adni 
 $_['text_confirm_rebate']                        = 'Biztos, hogy vissza akarja téríteni a fizetést?';
 
 $_['button_release']                             = 'Kiadás';
-$_['button_rebate']                              = 'Visszatérítés / Visszatérítés';
-$_['button_void']                                = 'Engedély visszavonása';
+$_['button_rebate']                              = 'Jóváírás / visszatérítés';
+$_['button_void']                                = 'Sztornó';

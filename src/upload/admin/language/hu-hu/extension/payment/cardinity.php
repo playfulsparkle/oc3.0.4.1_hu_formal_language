@@ -8,7 +8,7 @@ $_['text_success']			= 'Siker: A Cardinity fizetési modul sikeresen módosítva
 $_['text_edit']             = 'Cardinity szerkesztése';
 $_['text_cardinity']		= '<a href="http://cardinity.com/?crdp=opencart" target="_blank" rel="external noopener noreferrer"><img src="view/image/payment/cardinity.png" alt="Cardinity" title="Cardinity" style="border: 1px solid #EEEEEE;" /></a>';
 $_['text_production']		= 'Termelés';
-$_['text_sandbox']			= 'Sandbox';
+$_['text_sandbox']			= 'Tesztkörnyezet';
 $_['text_payment_info']		= 'Visszatérítési információ';
 $_['text_no_refund']		= 'Nincs visszatérítési előzmény';
 $_['text_confirm_refund']	= 'Biztosan visszatérítést szeretne?';
@@ -35,7 +35,7 @@ $_['entry_status']			= 'Állapot';
 $_['entry_sort_order']		= 'Sorrend';
 $_['entry_key']				= 'Kulcs';
 $_['entry_secret']			= 'Titkos';
-$_['entry_debug']			= 'Debug';
+$_['entry_debug']			= 'Hibakeresés';
 
 // Help
 $_['help_debug']			= 'A debug engedélyezése érzékeny adatokat ír a naplófájlba. Mindig tiltsa le, kivéve, ha másképp utasítják.';

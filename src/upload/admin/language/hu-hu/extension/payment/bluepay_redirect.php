@@ -57,8 +57,8 @@ $_['help_cron_job_url']		 = 'Állítson be egy cron feladatot ennek az URL-nek a
 
 // Button
 $_['button_release']		 = 'Engedélyezés';
-$_['button_rebate']			 = 'Visszatérítés / visszafizetés';
-$_['button_void']			 = 'Érvénytelenít';
+$_['button_rebate']			 = 'Jóváírás / visszatérítés';
+$_['button_void']			 = 'Sztornó';
 
 // Error
 $_['error_permission']		 = 'Figyelmeztetés: Nincs jogosultsága a BluePay módosításához!';

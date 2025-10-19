@@ -108,5 +108,5 @@ $_['button_refund']                              = 'Visszatérítés';
 $_['button_show']                                = 'Megjelenítés';
 $_['button_download']                            = 'Letöltés';
 $_['button_release']                             = 'Kiadás';
-$_['button_rebate']                              = 'Kedvezmény / Visszatérítés';
-$_['button_void']                                = 'Hitelesítés visszavonása';
+$_['button_rebate']                              = 'Jóváírás / visszatérítés';
+$_['button_void']                                = 'Sztornó';

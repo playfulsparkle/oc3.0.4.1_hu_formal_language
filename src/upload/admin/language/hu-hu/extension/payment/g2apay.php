@@ -23,7 +23,7 @@ $_['text_refund']                     = 'Visszatérítés';
 // Entry
 $_['entry_username']			 	  = 'Felhasználónév';
 $_['entry_secret']				 	  = 'Titkos kulcs';
-$_['entry_api_hash']		     	  = 'API Hash';
+$_['entry_api_hash']		     	  = 'API-hash';
 $_['entry_environment']			 	  = 'Környezet';
 $_['entry_secret_token']		 	  = 'Titkos token';
 $_['entry_ipn_url']				 	  = 'IPN URL:';

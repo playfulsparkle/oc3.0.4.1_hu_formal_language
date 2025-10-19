@@ -69,8 +69,8 @@ $_['entry_status_decline']			 = 'Elutasítva';
 $_['entry_status_decline_pending']	 = 'Elutasítva - offline engedélyezés';
 $_['entry_status_decline_stolen']	 = 'Elutasítva - elveszett vagy ellopott kártya';
 $_['entry_status_decline_bank']		 = 'Elutasítva - banki hiba';
-$_['entry_status_void']				 = 'Törölt';
-$_['entry_status_rebate']			 = 'Kedvezményes';
+$_['entry_status_void']				 = 'Sztornózva';
+$_['entry_status_rebate']			 = 'Jóváírva';
 $_['entry_notification_url']		 = 'Értesítési URL';
 
 // Help
@@ -88,9 +88,9 @@ $_['tab_payment']					 = 'Fizetési beállítások';
 $_['tab_advanced']					 = 'Haladó';
 
 // Button
-$_['button_capture']				 = 'Rögzítés';
-$_['button_rebate']					 = 'Kedvezmény / visszatérítés';
-$_['button_void']					 = 'Törlés';
+$_['button_capture']				 = 'Terhelés';
+$_['button_rebate']					 = 'Jóváírás / visszatérítés';
+$_['button_void']					 = 'Sztornó';
 
 // Error
 $_['error_merchant_id']				 = 'A kereskedői azonosító megadása kötelező';

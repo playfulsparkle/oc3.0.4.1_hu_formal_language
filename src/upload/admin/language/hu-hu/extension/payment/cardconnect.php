@@ -27,7 +27,7 @@ $_['text_order_total']              = 'Rendelés összesen';
 $_['text_total_captured']           = 'Összesen rögzített';
 $_['text_capture_payment']          = 'Fizetés rögzítése';
 $_['text_refund_payment']           = 'Fizetés visszatérítése';
-$_['text_void']                     = 'Érvénytelenítés';
+$_['text_void']                     = 'Sztornózás';
 $_['text_transactions']             = 'Tranzakciók';
 $_['text_column_type']              = 'Típus';
 $_['text_column_reference']         = 'Hivatkozás';
@@ -36,13 +36,13 @@ $_['text_column_status']            = 'Állapot';
 $_['text_column_date_modified']     = 'Módosítás dátuma';
 $_['text_column_date_added']        = 'Hozzáadás dátuma';
 $_['text_column_update']            = 'Frissítés';
-$_['text_column_void']              = 'Érvénytelenítés';
+$_['text_column_void']              = 'Sztornózás';
 $_['text_confirm_capture']          = 'Biztosan rögzíteni szeretné a fizetést?';
 $_['text_confirm_refund']           = 'Biztosan vissza szeretné téríteni a fizetést?';
 $_['text_inquire_success']          = 'Lekérdezés sikeres volt';
 $_['text_capture_success']          = 'A rögzítési kérés sikeres volt';
 $_['text_refund_success']           = 'A visszatérítési kérés sikeres volt';
-$_['text_void_success']             = 'Az érvénytelenítési kérés sikeres volt';
+$_['text_void_success']             = 'Az sztornózási kérés sikeres volt';
 
 // Entry
 $_['entry_merchant_id']             = 'Kereskedői azonosító';
@@ -59,8 +59,8 @@ $_['entry_geo_zone']                = 'Adózóna';
 $_['entry_status']                  = 'Állapot';
 $_['entry_logging']                 = 'Hibaüzenetek naplózása';
 $_['entry_sort_order']              = 'Sorrend';
-$_['entry_cron_url']                = 'Cron Job URL';
-$_['entry_cron_time']               = 'Cron Job Utolsó Futás';
+$_['entry_cron_url']                = 'Cron feladat URL-je';
+$_['entry_cron_time']               = 'Cron feladat utolsó futása';
 $_['entry_order_status_pending']    = 'Függőben';
 $_['entry_order_status_processing'] = 'Feldolgozás alatt';
 
@@ -82,11 +82,11 @@ $_['help_order_status_processing']  = 'A rendelés állapota, amikor a rendelés
 
 // Button
 $_['button_inquire_all']            = 'Összes lekérdezése';
-$_['button_capture']                = 'Rögzítés';
+$_['button_capture']                = 'Terhelés';
 $_['button_refund']                 = 'Visszatérítés';
-$_['button_void_all']               = 'Összes érvénytelenítése';
+$_['button_void_all']               = 'Összes sztornó';
 $_['button_inquire']                = 'Lekérdezés';
-$_['button_void']                   = 'Érvénytelenítés';
+$_['button_void']                   = 'Sztornó';
 
 // Error
 $_['error_permission']              = 'Figyelmeztetés: Nincs jogosultsága a CardConnect fizetés módosításához!';
