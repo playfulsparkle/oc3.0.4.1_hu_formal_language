@@ -69,7 +69,7 @@ $_['help_total']					 = 'Az a rendelési összeg, amelyet el kell érnie a rende
 $_['help_certificate']				 = 'A tanúsítványokat és privát kulcsokat a nyilvános webmappákon kívül kell tárolni';
 $_['help_card_select']				 = 'Kérje meg a felhasználót, hogy válassza ki a kártyatípusát, mielőtt átirányítják';
 $_['help_notification']				 = 'Ezt az URL-t kell megadnia a First Data számára, hogy fizetési értesítéseket kapjon';
-$_['help_debug']					 = 'A hibakeresés engedélyezése érzékeny adatokat írhat egy naplófájlba. Csak utasításra engedélyezze.';
+$_['help_debug']					 = 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 $_['help_settle']					 = 'Előzetes jóváhagyás esetén 3-5 napon belül végre kell hajtania egy utólagos jóváhagyást, különben a tranzakciója elutasításra kerül';
 
 // Tab

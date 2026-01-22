@@ -80,7 +80,7 @@ $_['entry_tax_class']              = 'Adóosztály';
 $_['entry_geo_zone']               = 'Adózóna';
 $_['entry_status']                 = 'Állapot';
 $_['entry_sort_order']             = 'Sorrend';
-$_['entry_debug']                  = 'Debug Üzemmód';
+$_['entry_debug']                  = 'Hibakeresés naplózása';
 // Help
 $_['help_key']                     = 'Adja meg az Ön által a UPS-től kapott XML tarifa hozzáférési kulcsot.';
 $_['help_username']                = 'Adja meg a UPS Szolgáltatások fiókjához tartozó felhasználónevet.';

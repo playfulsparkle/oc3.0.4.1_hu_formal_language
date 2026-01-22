@@ -46,11 +46,11 @@ $_['entry_order_status']	 = 'Rendelés állapot';
 $_['entry_geo_zone']		 = 'Adózóna';
 $_['entry_status']			 = 'Állapot';
 $_['entry_sort_order']		 = 'Sorrend';
-$_['entry_debug']			 = 'Hibakeresési naplózás';
+$_['entry_debug']			 = 'Hibakeresés naplózása';
 
 // Help
 $_['help_total']             = 'Az a rendelési összeg, amelyet a rendelésnek el kell érnie, mielőtt ez a fizetési mód aktívvá válik.';
-$_['help_debug']			 = 'A hibakeresés engedélyezése érzékeny adatokat ír a naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
+$_['help_debug']			 = 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 $_['help_transaction']		 = 'Az eladás azonnal terheli a vásárlót. Az engedélyezés a jövőbeli levonásra tartja a pénzeszközöket.';
 $_['help_cron_job_token']	 = 'Tegye ezt hosszúvá és nehezen kitalálhatóvá';
 $_['help_cron_job_url']		 = 'Állítson be egy cron feladatot, hogy hívja meg ezt az URL-t';

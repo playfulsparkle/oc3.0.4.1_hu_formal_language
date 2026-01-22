@@ -35,10 +35,10 @@ $_['entry_status']			= 'Állapot';
 $_['entry_sort_order']		= 'Sorrend';
 $_['entry_key']				= 'Kulcs';
 $_['entry_secret']			= 'Titkos';
-$_['entry_debug']			= 'Hibakeresés';
+$_['entry_debug']			= 'Hibakeresés naplózása';
 
 // Help
-$_['help_debug']			= 'A debug engedélyezése érzékeny adatokat ír a naplófájlba. Mindig tiltsa le, kivéve, ha másképp utasítják.';
+$_['help_debug']			= 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 $_['help_total']            = 'Az a rendelési összeg, amelyet a rendelésnek el kell érnie, mielőtt ez a fizetési mód aktívvá válik.';
 
 // Button

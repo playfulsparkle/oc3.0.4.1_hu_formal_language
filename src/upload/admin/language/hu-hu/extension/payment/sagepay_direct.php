@@ -40,7 +40,7 @@ $_['entry_order_status']	  = 'Rendelés állapot';
 $_['entry_geo_zone']		  = 'Adózóna';
 $_['entry_status']			  = 'Állapot';
 $_['entry_sort_order']		  = 'Sorrend';
-$_['entry_debug']			  = 'Debug naplózás';
+$_['entry_debug']			  = 'Hibakeresés naplózása';
 $_['entry_card']			  = 'Kártyák tárolása';
 $_['entry_cron_job_token']	  = 'Titkos token';
 $_['entry_cron_job_url']	  = 'Cron feladat URL-je';
@@ -48,7 +48,7 @@ $_['entry_last_cron_job_run'] = 'Az utolsó cron feladat futási ideje:';
 
 // Help
 $_['help_total']			  = 'Az a végösszeg, amelyet a rendelésnek el kell érnie, mielőtt ez a fizetési módszer aktívvá válik.';
-$_['help_debug']			  = 'A debug engedélyezése érzékeny adatokat ír a naplófájlba. Mindig tiltsa le, kivéve, ha másképp utasítják.';
+$_['help_debug']			  = 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 $_['help_transaction']		  = 'A tranzakciós módszert KIZÁRÓLAG a Fizetésre kell beállítani az előfizetéses fizetések engedélyezéséhez.';
 $_['help_cron_job_token']	  = 'Hosszú és nehezen kitalálható legyen.';
 $_['help_cron_job_url']		  = 'Állítson be egy cron feladatot, amely meghívja ezt az URL-t.';

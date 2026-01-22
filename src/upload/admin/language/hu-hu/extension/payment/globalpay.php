@@ -56,7 +56,7 @@ $_['entry_total']					 = 'Teljes összeg';
 $_['entry_sort_order']				 = 'Sorrend';
 $_['entry_geo_zone']				 = 'Adózóna';
 $_['entry_status']					 = 'Állapot';
-$_['entry_debug']					 = 'Hibakeresési naplózás';
+$_['entry_debug']					 = 'Hibakeresés naplózása';
 $_['entry_live_demo']				 = 'Éles / Demó';
 $_['entry_auto_settle']				 = 'Rendezés típusa';
 $_['entry_card_select']				 = 'Kártya kiválasztása';
@@ -77,7 +77,7 @@ $_['entry_notification_url']		 = 'Értesítési URL';
 $_['help_total']					 = 'Az a rendelési összeg, amelyet a rendelésnek el kell érnie, mielőtt ez a fizetési mód aktívvá válik.';
 $_['help_card_select']				 = 'Kérje meg a felhasználót, hogy válassza ki a kártyatípusát, mielőtt átirányítják';
 $_['help_notification']				 = 'Ezt az URL-t a Globalpay részére kell megadnia a fizetési értesítések fogadásához';
-$_['help_debug']					 = 'A hibakeresés engedélyezése érzékeny adatokat ír a naplófájlba. Mindig tiltsa le, hacsak másként nem utasítják.';
+$_['help_debug']					 = 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 $_['help_dcc_settle']				 = 'Ha az alfiókját DCC engedéllyel rendelkezik, használja az automatikus rendezést.';
 
 // Tab

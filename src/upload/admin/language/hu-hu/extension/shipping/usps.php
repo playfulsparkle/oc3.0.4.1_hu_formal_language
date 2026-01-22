@@ -69,14 +69,14 @@ $_['entry_tax']             = 'Adóosztály';
 $_['entry_geo_zone']        = 'Adózóna';
 $_['entry_status']          = 'Állapot';
 $_['entry_sort_order']      = 'Sorrend';
-$_['entry_debug']           = 'Hibakeresési Mód';
+$_['entry_debug']           = 'Hibakeresés naplózása';
 
 // Help
 $_['help_dimension']        = 'A szállításhoz használt átlagos csomagméretek. A termék méretei jelenleg nem használhatók a szállításhoz.';
 $_['help_display_time']     = 'Szeretné megjeleníteni a szállítási időt? (pl. 3-5 napon belül szállít)';
 $_['help_display_weight']   = 'Szeretné megjeleníteni a szállítási súlyt? (pl. Szállítási súly: 2,7674 kg)';
 $_['help_weight_class']     = 'Fontban kell beállítani.';
-$_['help_debug']            = 'A küldött/kapott adatokat a rendszer naplóba menti.';
+$_['help_debug']            = 'Mentse a küldött/kapott adatokat a rendszer naplóba.';
 
 // Error
 $_['error_permission']      = 'Figyelmeztetés: Nincs jogosultsága az United States Postal Service módosításához!';

@@ -40,7 +40,7 @@ $_['entry_total']                    = 'Teljes összeg';
 $_['entry_sort_order']               = 'Sorrend';
 $_['entry_geo_zone']                 = 'Adózóna';
 $_['entry_status']                   = 'Állapot';
-$_['entry_debug']                    = 'Hibakeresési naplózás';
+$_['entry_debug']                    = 'Hibakeresés naplózása';
 $_['entry_live_demo']                = 'Éles / Demó';
 $_['entry_auto_settle']              = 'Elszámolás típusa';
 $_['entry_card_select']              = 'Kártya kiválasztása';
@@ -56,7 +56,7 @@ $_['entry_enable_card_store']        = 'Kártyatárolási tokenek engedélyezés
 // Help
 $_['help_total']                     = 'Az a rendelési összeg, amelyet el kell érni, mielőtt ez a fizetési mód aktívvá válik.';
 $_['help_notification']              = 'Ezt az URL-t meg kell adnia a First Data számára a fizetési értesítésekhez.';
-$_['help_debug']                     = 'A hibakeresés engedélyezése érzékeny adatokat ír a naplófájlba. Csak utasításra hagyja bekapcsolva.';
+$_['help_debug']                     = 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 $_['help_settle']                    = 'Ha előengedélyezést használ, 3–5 napon belül végre kell hajtania az utóengedélyezést (post-auth), különben a tranzakció elutasításra kerül.';
 
 // Tab

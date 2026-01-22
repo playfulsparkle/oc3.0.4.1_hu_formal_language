@@ -56,7 +56,7 @@ $_['entry_total']					 = 'Teljes összeg';
 $_['entry_sort_order']				 = 'Sorrend';
 $_['entry_geo_zone']				 = 'Adózóna';
 $_['entry_status']					 = 'Állapot';
-$_['entry_debug']					 = 'Hiba naplózás';
+$_['entry_debug']					 = 'Hibakeresés naplózása';
 $_['entry_auto_settle']				 = 'Rendezési típus';
 $_['entry_tss_check']				 = 'TSS ellenőrzések';
 $_['entry_card_data_status']		 = 'Kártyainformáció naplózás';
@@ -75,7 +75,7 @@ $_['entry_status_rebate']			 = 'Jóváírva';
 $_['help_total']					 = 'Az a rendelési összeg, amelyet a rendelésnek el kell érnie, mielőtt ez a fizetési mód aktívvá válik.';
 $_['help_card_select']				 = 'Kérjük, kérje meg a felhasználót, hogy válassza ki a kártyatípusát, mielőtt átirányítaná őket';
 $_['help_notification']				 = 'Ezt az URL-t meg kell adni a Realex-nek a fizetési értesítésekhez';
-$_['help_debug']					 = 'A hiba naplózás engedélyezése érzékeny adatokat ír a naplófájlba. Mindig tiltsa le, kivéve, ha másként utasítják.';
+$_['help_debug']					 = 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 $_['help_liability']				 = 'A felelősség elfogadása azt jelenti, hogy még akkor is elfogadja a fizetéseket, ha a felhasználó nem teljesíti a 3D biztonságot.';
 $_['help_card_data_status']			 = 'A kártya utolsó 4 számjegyét, lejárati dátumát, nevét, típusát és kibocsátó bank adatait naplózza';
 

@@ -31,7 +31,7 @@ $_['entry_total']				 	  = 'Teljes összeg';
 $_['entry_geo_zone']			 	  = 'Adózóna';
 $_['entry_status']				 	  = 'Állapot';
 $_['entry_sort_order']			 	  = 'Sorrend';
-$_['entry_debug']				 	  = 'Hibakeresési naplózás';
+$_['entry_debug']				 	  = 'Hibakeresés naplózása';
 $_['entry_order_status']			  = 'Rendelés állapot';
 $_['entry_complete_status']			  = 'Befejezett állapot:';
 $_['entry_rejected_status']			  = 'Elutasított állapot:';
@@ -43,7 +43,7 @@ $_['entry_partially_refunded_status'] = 'Részben visszatérített állapot:';
 // Help
 $_['help_username']					  = 'Az e-mail cím, amelyet a fiókjához használ';
 $_['help_total']				 	  = 'Az a rendelési összeg, amelyet el kell érnie a fizetési mód aktiválásához.';
-$_['help_debug']				 	  = 'A hibakeresés engedélyezése érzékeny adatokat írhat a naplófájlba. Csak akkor engedélyezze, ha erre külön utasítást kap.';
+$_['help_debug']				 	  = 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 
 // Tab
 $_['tab_settings']				 	  = 'Beállítások';

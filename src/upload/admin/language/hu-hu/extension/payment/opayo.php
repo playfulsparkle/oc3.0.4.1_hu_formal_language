@@ -37,7 +37,7 @@ $_['entry_order_status']	  			= 'Rendelés állapot';
 $_['entry_geo_zone']		  			= 'Adózóna';
 $_['entry_status']			  			= 'Állapot';
 $_['entry_sort_order']		  			= 'Sorrend';
-$_['entry_debug']			  			= 'Hibaellenőrzés';
+$_['entry_debug']			  			= 'Hibakeresés naplózása';
 $_['entry_card_save']			  		= 'Kártyák Mentése';
 $_['entry_cron_token']	  				= 'Titkos Token';
 $_['entry_cron_url']	  				= 'Cron feladat URL-je';
@@ -45,7 +45,7 @@ $_['entry_cron_last_run']	 			= 'Legutolsó futtatás ideje:';
 
 // Help
 $_['help_total']			  			= 'A végösszeg, amelyet a rendelésnek el kell érnie, mielőtt ez a fizetési mód aktívvá válik.';
-$_['help_debug']			  			= 'A hibaellenőrzés engedélyezése érzékeny adatok naplófájlba történő írását eredményezi. Mindig tiltsa le, hacsak másképp nem utasítják.';
+$_['help_debug']			  			= 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 $_['help_transaction_method']  			= 'A tranzakciós módszert kötelezően „Fizetés”-re kell állítani a rendszeres kifizetések engedélyezéséhez.';
 $_['help_card_save']			  		= 'Ahhoz, hogy a vásárló menteni tudja a kártya adatait a későbbi kifizetésekhez, a MID TOKEN-nek aktiválva kell lennie. Lépjen kapcsolatba az Opayo ügyfélszolgálatával a token rendszer aktiválásának megvitatásához.';
 $_['help_cron_token']	  				= 'Ez legyen hosszú és nehezen kitalálható.';

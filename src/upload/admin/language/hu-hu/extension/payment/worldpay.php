@@ -25,7 +25,7 @@ $_['entry_order_status']		         = 'Rendelés állapot';
 $_['entry_geo_zone']			         = 'Adózóna';
 $_['entry_status']				         = 'Állapot';
 $_['entry_sort_order']			         = 'Sorrend';
-$_['entry_debug']				         = 'Debug naplózás';
+$_['entry_debug']				         = 'Hibakeresés naplózása';
 $_['entry_card']				         = 'Kártyák tárolása';
 $_['entry_secret_token']		         = 'Titkos token';
 $_['entry_webhook_url']			         = 'Webhook URL:';
@@ -45,7 +45,7 @@ $_['entry_voided_status']			     = 'Törölt állapot:';
 
 // Help
 $_['help_total']				         = 'Az a rendelési összeg, amelyet a rendelésnek el kell érnie, mielőtt ez a fizetési mód aktívvá válik.';
-$_['help_debug']				         = 'A debug engedélyezése érzékeny adatokat ír ki a naplófájlba. Mindig tiltsa le, hacsak másként nem utasítják.';
+$_['help_debug']				         = 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 $_['help_secret_token']			         = 'Tegye ezt hosszúvá és nehezen kitalálhatóvá';
 $_['help_webhook_url']			         = 'Állítsa be a Worldpay webhooks-t, hogy ezt az URL-t hívja meg';
 $_['help_cron_job_url']			         = 'Állítson be egy cron jobot, hogy ezt az URL-t hívja meg';

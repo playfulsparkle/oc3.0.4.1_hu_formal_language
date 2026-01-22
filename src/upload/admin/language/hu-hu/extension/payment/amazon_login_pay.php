@@ -97,7 +97,7 @@ $_['entry_pending_status']          = 'Függő rendelés állapota';
 $_['entry_capture_oc_status']       = 'Lefoglalási rendelés állapota';
 $_['entry_ipn_url']					= 'IPN URL';
 $_['entry_ipn_token']				= 'Titkos token';
-$_['entry_debug']					= 'Hibaelhárítási naplózás';
+$_['entry_debug']					= 'Hibakeresés naplózása';
 
 // Help
 $_['help_pay_mode']					= 'Válassza a Fizetést, ha azt szeretné, hogy a kifizetést automatikusan rögzítse, vagy az Engedélyezést, ha azt manuálisan szeretné rögzíteni.';
@@ -107,7 +107,7 @@ $_['help_capture_oc_status']        = 'Válassza ki azt a rendelési állapotot,
 $_['help_ipn_url']					= 'Állítsa be ezt az Ön kereskedői URL-jeként az Amazon Seller Centralban';
 $_['help_ipn_token']				= 'Legyen hosszú és nehezen kitalálható. Az eredmény IPN URL nem lehet hosszabb, mint 150 karakter.';
 $_['help_minimum_total']			= 'Ennek nulla fölött kell lennie';
-$_['help_debug']					= 'A hibaelhárítás engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
+$_['help_debug']					= 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
 $_['help_declined_codes']			= 'Ez csak tesztelési célokra szolgál';
 $_['help_buyer_multi_currency']     = 'Engedélyezze ezt az opciót, ha szeretné, hogy a vásárló bármelyik, az Amazon Pay által támogatott valutában vásárolhasson az Ön online áruházában: %s';
 $_['help_buyer_multi_currency_no_available_currency']     = 'Nincsenek <a href="https://pay.amazon.co.uk/help/5BDCWHCUC27485L" target="_blank" rel="external noopener noreferrer"><b>Amazon Pay által támogatott valuták</b></a> az Ön online áruházában, kérjük, adjon hozzá/engedélyezzen ilyen valutákat a funkció használatához.';
