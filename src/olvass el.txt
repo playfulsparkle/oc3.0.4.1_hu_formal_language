@@ -8,16 +8,16 @@ Demo backend - https://opencart3.playfulsparkle.com/admin/
 Főbb jellemzők
 
 - Teljes körű magyar nyelvi csomag (magázó) OpenCart 3.0.4.1-hez: backend, frontend, bővítmény és telepítés.
-- Kompatibilis az OpenCart 3.0.4.1+ verzióival.
+- Kompatibilis az OpenCart 3.0.4.1 verzióival.
 - A fordítás teljes körű és részletes; nagy figyelmet fordítottunk arra, hogy a kifejezések minden egyes oldalon egységesek legyenek, pl. "üzlet", "bolt" kifejezés helyett "áruház".
 
 Telepítés
 
 1. Töltse le az OpenCart Marketplace oldaláról a "Hungarian language (formal)" csomagot.
 2. Csomagolja ki a nyelvi csomag fájlait egy mappába.
-3. Használja kedvenc FTP kliensét, és navigáljon az OpenCart 3.0.4.1 telepítési könyvtárába.
-4. Töltse fel a következő mappákat: "admin", "catalog", "extension" (, és "install", ha még csak most telepíti az OpenCart 3.0.4.1-et).
-5. Jelentkezzen be az OpenCart 3.0.4.1 adminisztrációs felületére.
+3. Használja kedvenc FTP kliensét, és navigáljon az OpenCart telepítési könyvtárába.
+4. Töltse fel a következő mappákat: "admin", "catalog", "extension" (, és "install", ha még csak most telepíti az OpenCart-et).
+5. Jelentkezzen be az OpenCart adminisztrációs felületére.
 6. Navigáljon a "System" -> "Localization" -> "Languages" oldalra.
 7. Kattintson az "Add New" feliratú gombra.
 8. A "Language Name" mezőbe írja be "Magyar"; a "Code" mezőbe írja be "hu-hu"; a "Locale" mezőbe írja be "hu_HU.UTF-8,hu_HU,hu-hu,hungarian"; végül engedélyezze a nyelvet.
